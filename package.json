@@ -28,6 +28,7 @@
     "react-stickynode": "^2.1.1",
     "react-typewriter-hook": "^1.0.1",
     "react-water-wave": "^1.0.5",
+    "serve": "^13.0.2",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
