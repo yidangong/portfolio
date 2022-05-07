@@ -12,12 +12,6 @@ class Navbar extends Component {
               <img src={require("../../image/" + mainlogo)} alt="" />
               <img src={require("../../image/" + stickylogo)} alt="" />
             </a>
-            <a
-              href="./"
-              className="btn get-btn get-btn-two d-lg-none d-md-block login"
-            >
-              Login
-            </a>
             <button
               className="navbar-toggler"
               type="button"
