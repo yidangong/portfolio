@@ -4,13 +4,13 @@ import Form from "./Form";
 
 class Contact extends Component {
   render() {
-    let jhonData = this.props.jhonData;
+    let yidanData = this.props.yidanData;
     return (
       <section className="contact-area" id="contact">
         <div className="container">
           <div className="row row-reverse">
-            {jhonData.contact &&
-              jhonData.contact.map((item) => {
+            {yidanData.contact &&
+              yidanData.contact.map((item) => {
                 return (
                   <React.Fragment key={item.id}>
                     <div className="col-md-5">
@@ -22,11 +22,11 @@ class Contact extends Component {
                               return (
                                 <li className="item" key={info.id}>
                                   <div className="media">
-                                    <a href="/#">
+                                    <a href={info.url} target="_blank">
                                       <i className={info.icon}></i>
                                     </a>
                                     <div className="media-body">
-                                      <a href="/#">{info.text}</a>
+                                      <a href={info.url} target="_blank">{info.text}</a>
                                     </div>
                                   </div>
                                 </li>
@@ -42,7 +42,7 @@ class Contact extends Component {
             <div className="col-md-7">
               <Reveal effect="fadeInRight" duration={800}>
                 <div className="input_form">
-                  <h4>{jhonData.contacttitle}</h4>
+                  <h4>{yidanData.contacttitle}</h4>
                   <Form />
                   <div id="success">Your message succesfully sent!</div>
                   <div id="error">

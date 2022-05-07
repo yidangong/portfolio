@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 class Footer extends Component{
     render(){
-        let jhonData = this.props.jhonData;
+        let yidanData = this.props.yidanData;
         return(
             <section className="footer-area">
                 <div className="container">
@@ -14,10 +14,10 @@ class Footer extends Component{
                         <Fade top cascade>
                             <ul className="list_style">
                                 {
-                                    jhonData.socialLinks.map(item =>{
+                                    yidanData.socialLinks.map(item =>{
                                         return(
                                             <li key={item.name}>
-                                                <a  href={item.url}><i className={item.className}></i></a> 
+                                                <a  href={item.url} target="_blank"><i className={item.className} ></i></a> 
                                             </li>
                                         )
                                     })
@@ -25,8 +25,8 @@ class Footer extends Component{
                             </ul>
                         </Fade>
                         
-                        <h6>Made with love by <a href="https://themeforest.net/user/blazethemez">Blazethemez</a></h6>
-                        <p>© 2019 Blazethemez - All Rights Reserved</p>
+                        <h6>Made with love by <a href="http://www.yidangong.com" target="_blank">Yidan Gong</a></h6>
+                        <p>© 2022 YidanGong - All Rights Reserved</p>
                     </div>
                 </div>
             </section>

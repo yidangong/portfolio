@@ -66,19 +66,6 @@ class Navbar extends Component {
                   <Link
                     className="nav-link"
                     activeClass="active"
-                    to="service"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Service
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
                     to="portfolio"
                     spy={true}
                     smooth={true}
@@ -86,32 +73,6 @@ class Navbar extends Component {
                     duration={500}
                   >
                     Portfolio
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="testimonial"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Testimonial
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
-                    to="blog"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Blog
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -126,13 +87,6 @@ class Navbar extends Component {
                   >
                     Contact
                   </Link>
-                </li>
-              </ul>
-              <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
-                <li className="nav-item">
-                  <a href="./" className="login">
-                    login
-                  </a>
                 </li>
               </ul>
             </div>

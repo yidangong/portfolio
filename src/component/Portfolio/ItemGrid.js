@@ -44,91 +44,20 @@ class ItemGrid extends Component {
             <div>
             <ul className="list_style portfolio_menu text-center">
                 <li className={`${this.onActive('*')}`} data-wow-delay="0.1s" data-filter="*" onClick={() => {this.onFilterChange("*")}}>ALL</li>
-                <li className={`${this.onActive('web')}`} data-wow-delay="0.3s" data-filter="web" onClick={() => {this.onFilterChange("web")}}>Web Design</li>
-                <li className={`${this.onActive(`develop`)}`} data-wow-delay="0.6s" data-filter="develop" onClick={()=> {this.onFilterChange("develop")}}>Development</li>
-                <li className={`${this.onActive(`market`)}`} data-wow-delay="0.8s" data-filter="market" onClick={()=> {this.onFilterChange("market")}}>Marketing</li>
+                <li className={`${this.onActive('teaching')}`} data-wow-delay="0.3s" data-filter="teaching" onClick={() => {this.onFilterChange("teaching")}}>Teaching</li>
             </ul>	
 
             <div className="grid row">
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item tech develop">
+                <div className="col-md-3 col-sm-6 col-xs-12 grid-item teaching">
                     <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/1.jpg')} alt=""/>
+                        <img src={require('../../image/portfolio/clp/program-logo.png')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">Spring 2022</h6>
+                                <h6 className="sm-titl">Intermediate 2</h6>
                                 <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>						
-                    </div>
-                </div>
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web develop">
-                    <div className="portfolio hover-style">
-                    <img src={require('../../image/portfolio/2.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
-                                <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>						
-                </div>
-                <div className="col-md-6 col-sm-6 col-xs-12 grid-item market develop">
-                    <div className="portfolio hover-style">
-                    <img src={require('../../image/portfolio/9.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
-                                <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-6 col-sm-6 col-xs-12 grid-item web">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/10.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
-                                <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>	
-                    </div>
-                </div>
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/3.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
-                                <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item develop">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/4.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
-                                <div className="icons">
-                                    <a href=".#"><i className="icon_heart_alt"></i></a>
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                    {/* <a href=".#"><i className="icon_heart_alt"></i></a> */}
+                                    <a href="/CLP"><i className="icon-magnifying-glass"></i></a>
                                 </div>
                             </div>
                         </div>

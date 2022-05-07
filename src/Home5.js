@@ -10,21 +10,21 @@ import Blog from './component/Blog/Blog';
 import Contact from './component/Contact';
 import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
-import jhonData from './component/jhonData';
+import yidanData from './component/yidanData';
 
 export const Home5 = () => (
   <div className="body_wrapper">
     <Navbar mainlogo="logo2.png" stickylogo="logo.png"/>  
-    <RBanner jhonData={jhonData} bClass="banner_shap" imag="man.jpg" textLeft="text-left"/>
-    <About aClass="about_area" jhonData={jhonData}/> 
-    <Service wClass="work_area" jhonData={jhonData}/>
+    <RBanner yidanData={yidanData} bClass="banner_shap" imag="man.jpg" textLeft="text-left"/>
+    <About aClass="about_area" yidanData={yidanData}/> 
+    <Service wClass="work_area" yidanData={yidanData}/>
     <Portfolio/>
     <Skill/>
     <Testimonial/>
     <Clientslogo/>
     <Blog/>
-    <Contact jhonData={jhonData}/>
-    <Footer jhonData={jhonData}/>
+    <Contact yidanData={yidanData}/>
+    <Footer yidanData={yidanData}/>
   </div>
 )
 

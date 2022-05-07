@@ -40,6 +40,7 @@ Table of Content:
 /*----------------------------------------------------*/
 /*font Variables*/
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@300;400;500;600;700;900&family=Open+Sans&family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://video-react.github.io/assets/video-react.css");
 .col-md-offset-right-1 {
   margin-right: 8.33333333%;
 }
@@ -2737,7 +2738,7 @@ h6 {
   position: absolute;
   content: "";
   height: 100%;
-  background: #f78234;
+  background: #0d6efd;
   transform: translateY(0%);
   z-index: 0;
 }
@@ -2758,7 +2759,7 @@ h6 {
   position: absolute;
   content: "";
   height: 100%;
-  background: #f78234;
+  background: #0d6efd;
   transform: translateY(0%);
   z-index: 0;
 }
@@ -3729,7 +3730,7 @@ h6 {
 }
 
 #fp-nav ul li a.active span.fp-sr-only, #fp-nav ul li a:hover span.fp-sr-only {
-  left: 35px;
+  left: 70px;
   opacity: 1;
   width: auto;
   height: auto;

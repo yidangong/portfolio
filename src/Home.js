@@ -11,7 +11,7 @@ import MapContainer from "./component/Map";
 import Contact from "./component/Contact";
 import Skill from "./component/Skill/Skill";
 import Footer from "./component/Footer";
-import jhonData from "./component/jhonData";
+import yidanData from "./component/yidanData";
 
 export const Home = () => (
   <div className="body_wrapper">
@@ -20,16 +20,16 @@ export const Home = () => (
       mainlogo="logo2.png"
       stickylogo="logo.png"
     />
-    <Banner jhonData={jhonData} />
-    <About aClass="about_area" jhonData={jhonData} />
-    <Service wClass="work_area" jhonData={jhonData} />
+    <Banner yidanData={yidanData} />
+    <About aClass="about_area" yidanData={yidanData} />
+    <Service wClass="work_area" yidanData={yidanData} />
     <Portfolio />
     <Skill />
     <Testimonial />
     <Clientslogo />
     <Blog />
     <MapContainer />
-    <Contact jhonData={jhonData} />
-    <Footer jhonData={jhonData} />
+    <Contact yidanData={yidanData} />
+    <Footer yidanData={yidanData} />
   </div>
 );

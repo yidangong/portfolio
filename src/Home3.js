@@ -11,23 +11,23 @@ import MapContainer from './component/Map';
 import Contact from './component/Contact';
 import Skill from './component/Skill/Skill';
 import Footer from './component/Footer';
-import jhonData from './component/jhonData';
+import yidanData from './component/yidanData';
 
 
 export const Home3 = () => (
   <div className="body_wrapper">
       <Navbar mClass="dark_menu" mContainer="custome_container" mainlogo="logo2.png" stickylogo="logo.png"/>
-      <ParticlesBanner jhonData={jhonData}/>
-      <About aClass='about_area bg_color' jhonData={jhonData}/>
-      <Service wClass="work_area_two" jhonData={jhonData}/>
+      <ParticlesBanner yidanData={yidanData}/>
+      <About aClass='about_area bg_color' yidanData={yidanData}/>
+      <Service wClass="work_area_two" yidanData={yidanData}/>
       <Portfolio pClass="bg_color"/>
       <Skill cClass="bg_w"/>
       <Testimonial/>
       <Clientslogo/>
       <Blog/>
       <MapContainer/>
-      <Contact jhonData={jhonData}/>
-      <Footer jhonData={jhonData}/>
+      <Contact yidanData={yidanData}/>
+      <Footer yidanData={yidanData}/>
   </div>
 )
 

@@ -29,7 +29,8 @@
     "react-typewriter-hook": "^1.0.1",
     "react-water-wave": "^1.0.5",
     "serve": "^13.0.2",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "video-react": "^0.15.0"
   },
   "scripts": {
     "dev": "react-scripts start",

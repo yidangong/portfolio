@@ -4,7 +4,7 @@ import WaterWave from 'react-water-wave';
 
 class Banner extends Component {
     render(){
-        let jhonData = this.props.jhonData;
+        let yidanData = this.props.yidanData;
         let {bClass, textLeft, imag}= this.props;
         return(
             <section id="home" >
@@ -16,14 +16,14 @@ class Banner extends Component {
                                         <h5>HELLO</h5>
                                     </Reveal>
                                     <Reveal  effect="fadeInUp" duration={1500}>
-                                        <h2 className="wow fadeInLeft animated">I am {jhonData.name}</h2>
+                                        <h2 className="wow fadeInLeft animated">I am {yidanData.name}</h2>
                                     </Reveal>
                                     <Reveal effect="fadeInUp" duration={2200}>
-                                        <h4 className="wow fadeInUp anoimated">Visual Designer & Front-end Developer</h4>
+                                        <h4 className="wow fadeInUp anoimated">ESL Teacher in New Yor</h4>
                                     </Reveal>
                                     <ul className="list_style social_icon">
                                     {
-                                        jhonData.socialLinks && jhonData.socialLinks.map(item =>{
+                                        yidanData.socialLinks && yidanData.socialLinks.map(item =>{
                                         return(
                                                 <li key={item.name}>
                                                 <a  href={item.url}><i className={item.className}></i></a> 
