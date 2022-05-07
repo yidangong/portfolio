@@ -15,7 +15,7 @@ const teachingMoments = [
   },
   {
     name: "Teaching Moment 2",
-    description: "Explaining the difference between the past passive and the present perfect passive",
+    description: "Explaining the difference between the past simple passive and the present perfect passive",
     videoUrl: "./docs/CLP/video/teaching-moment-2.mp4",
   },
   {

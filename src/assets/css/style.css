@@ -3730,7 +3730,7 @@ h6 {
 }
 
 #fp-nav ul li a.active span.fp-sr-only, #fp-nav ul li a:hover span.fp-sr-only {
-  left: 70px;
+  left: 85px;
   opacity: 1;
   width: auto;
   height: auto;
