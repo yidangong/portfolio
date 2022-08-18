@@ -11,27 +11,27 @@ const teachingMoments = [
   {
     name: "Teaching Moment 1",
     description: "Corrective Feedback: clarification request and explicit feedback",
-    videoUrl: "./docs/CLP/video/teaching-moment-1.mp4",
+    videoUrl: "https://yidangong.blob.core.windows.net/portfolioclp/teaching-moment-1.mp4",
   },
   {
     name: "Teaching Moment 2",
     description: "Explaining the difference between the past simple passive and the present perfect passive",
-    videoUrl: "./docs/CLP/video/teaching-moment-2.mp4",
+    videoUrl: "https://yidangong.blob.core.windows.net/portfolioclp/teaching-moment-2.mp4",
   },
   {
     name: "Teaching Moment 3",
     description: "Giving writing instructions",
-    videoUrl: "./docs/CLP/video/teaching-moment-3.mp4",
+    videoUrl: "https://yidangong.blob.core.windows.net/portfolioclp/teaching-moment-3.mp4",
   },
   {
     name: "Teaching Moment 4",
     description: "Answering a student's question in the breakout room",
-    videoUrl: "./docs/CLP/video/teaching-moment-4.mp4",
+    videoUrl: "https://yidangong.blob.core.windows.net/portfolioclp/teaching-moment-4.mp4",
   },
   {
     name: "Teaching Moment 5",
     description: "Scaffolding a writing activity by analyzing a letter with suggestions",
-    videoUrl: "./docs/CLP/video/teaching-moment-5.mp4",
+    videoUrl: "https://yidangong.blob.core.windows.net/portfolioclp/teaching-moment-5.mp4",
   },
 ]
 

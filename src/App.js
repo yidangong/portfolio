@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { CLP } from "./component/Projects/CLP/index";
 import { Home2 } from "./Home2";
 import { NotFound } from "./404";
+import { CLP2 } from "./component/Projects/CLP2";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home2} />
             <Route path="/CLP" component={CLP} />
+            <Route path="/CLP2" component={CLP2} />
             <Route component={NotFound} />
           </Switch>
         </Router>

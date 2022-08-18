@@ -63,6 +63,21 @@ class ItemGrid extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="col-md-3 col-sm-6 col-xs-12 grid-item teaching">
+                    <div className="portfolio hover-style">
+                        <img src={require('../../image/portfolio/clp2/program-logo.png')} alt=""/>
+                        <div className="item-img-overlay">
+                            <div className="overlay-info text-center">
+                                <h6 className="sm-titl">Summer 2022</h6>
+                                <h6 className="sm-titl">Intermediate</h6>
+                                <div className="icons">
+                                    {/* <a href=".#"><i className="icon_heart_alt"></i></a> */}
+                                    <a href="/CLP2"><i className="icon-magnifying-glass"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             </div>
         )

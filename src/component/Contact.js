@@ -22,11 +22,11 @@ class Contact extends Component {
                               return (
                                 <li className="item" key={info.id}>
                                   <div className="media">
-                                    <a href={info.url} target="_blank">
+                                    <a href={info.url} target="_blank" rel="noopener noreferrer">
                                       <i className={info.icon}></i>
                                     </a>
                                     <div className="media-body">
-                                      <a href={info.url} target="_blank">{info.text}</a>
+                                      <a href={info.url} target="_blank" rel="noopener noreferrer">{info.text}</a>
                                     </div>
                                   </div>
                                 </li>
