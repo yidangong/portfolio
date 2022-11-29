@@ -5,3 +5,6 @@
 
 ## Deploy to GitHub
 `git push origin main`
+
+## Local deployment
+`npm run dev`
