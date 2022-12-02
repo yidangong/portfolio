@@ -23,6 +23,7 @@ jobs:
 
       - name: yarn install, build, and test
         run: |
+          yarn config set network-timeout 500000
           yarn install
           yarn build
           # npm run test --if-present
