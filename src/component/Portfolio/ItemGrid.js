@@ -1,87 +1,85 @@
-import React, {Component} from 'react';
-import Isotope from 'isotope-layout/js/isotope';
-import ImagesLoaded from 'imagesloaded/imagesloaded';
+import React, { Component } from 'react';
+import ProjectData from './ProjectData';
 
 class ItemGrid extends Component {
-
     state = {
-        activeItem: '*',
+        category: '*',
+        projects: ProjectData
     }
 
-    componentDidMount() {
-        var imgLoad = new ImagesLoaded('.grid');
-    
-        imgLoad.on('progress', function(instance, image) {
-            this.iso = new Isotope('.grid', {
-                itemSelector: '.grid-item',
-                layoutMode: "masonry"
+    onFilterChange = (filter) => {
+        if (filter === '*') {
+            this.setState({
+                category: '*',
+                projects: ProjectData
             });
-        }); 
-        
-    }
-    onFilterChange = (newFilter) => {
-        
-        this.setState({activeItem: newFilter});
-        if (this.iso === undefined) {
-            this.iso = new Isotope('.grid', {
-            itemSelector: '.grid-item',
-            layoutMode: "masonry"
+        } else {
+            const newProjects = ProjectData.filter(project => {
+                return project.category === filter;
+            })
+            this.setState({
+                category: filter,
+                projects: newProjects
             });
         }
-    
-    // this.iso.arrange({ filter: newFilter });
-        
-      if(newFilter === '*') {
-        this.iso.arrange({ filter: `*` });
-      } else {
-        this.iso.arrange({ filter: `.${newFilter}` });
-      }
     }
 
-    onActive = v => v === this.state.activeItem ? 'active' : '';
-    render() {
-        return(
-            <div>
-            <ul className="list_style portfolio_menu text-center">
-                <li className={`${this.onActive('*')}`} data-wow-delay="0.1s" data-filter="*" onClick={() => {this.onFilterChange("*")}}>ALL</li>
-                <li className={`${this.onActive('teaching')}`} data-wow-delay="0.3s" data-filter="teaching" onClick={() => {this.onFilterChange("teaching")}}>Teaching</li>
-            </ul>	
+    isActive = (category) => {
+        return category === this.state.category ? 'active' : '';
+    }
 
-            <div className="grid row">
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item teaching">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/clp/program-logo.png')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">Spring 2022</h6>
-                                <h6 className="sm-titl">Intermediate 2</h6>
-                                <div className="icons">
-                                    {/* <a href=".#"><i className="icon_heart_alt"></i></a> */}
-                                    <a href="/CLP"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>
+    render() {
+        return (
+            <div>
+                <ul className="list_style portfolio_menu text-center">
+                    <li className={`${this.isActive('*')}`} data-wow-delay="0.1s" onClick={() => { this.onFilterChange("*") }}>ALL</li>
+                    <li className={`${this.isActive('uxui')}`} data-wow-delay="0.3s" onClick={() => { this.onFilterChange("uxui") }}>UX/UI Design</li>
+                    <li className={`${this.isActive('teaching')}`} data-wow-delay="0.3s" onClick={() => { this.onFilterChange("teaching") }}>Teaching</li>
+                </ul>
+                <div className="container-fluid">
+                    <div className="row justify-content-center">
+                        {this.state.projects.map((Val, i) => {
+                            if (i % 2 === 0) {
+                                return (
+                                    <a href={Val.ref}>
+                                        <div className="col-lg-12 col-md-12">
+                                            <div className="row blog_post">
+                                                <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 blog_img">
+                                                    <img className="img-fluid" src={require(`../../image/portfolio/${Val.img}`)} alt="" />
+                                                </div>
+                                                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 post_content">
+                                                    <h2>{Val.title}</h2>
+                                                    <p className='description'>{Val.desc}</p>
+                                                    <p className="read_btn"><i className="arrow_left" /> See Details</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                );
+                            } else {
+                                return (
+                                    <a href={Val.ref}>
+                                        <div className="col-lg-12 col-md-12 image_right">
+                                            <div className="row blog_post">
+                                                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 post_content">
+                                                    <h2>{Val.title}</h2>
+                                                    <p className='description'>{Val.desc}</p>
+                                                    <p className="read_btn">See Details <i className="arrow_right" /></p>
+                                                </div>
+                                                <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 blog_img">
+                                                    <img className="img-fluid" src={require(`../../image/portfolio/${Val.img}`)} alt="" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                );
+                            }
+                        })}
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-6 col-xs-12 grid-item teaching">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/portfolio/clp2/program-logo.jpeg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">Summer 2022</h6>
-                                <h6 className="sm-titl">Intermediate</h6>
-                                <div className="icons">
-                                    {/* <a href=".#"><i className="icon_heart_alt"></i></a> */}
-                                    <a href="/CLP2"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
         )
     }
-  }
+}
 
-  export default ItemGrid;
+export default ItemGrid;
