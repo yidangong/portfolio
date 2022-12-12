@@ -5,6 +5,7 @@ import { CLP } from "./component/Projects/CLP/index";
 import { Home2 } from "./Home2";
 import { NotFound } from "./404";
 import { CLP2 } from "./component/Projects/CLP2";
+import { HealthCheck } from "./HealthCheck";
 
 import { Home } from "./Home";
 import { Home3 } from "./Home3";
@@ -32,6 +33,7 @@ class App extends Component {
             <Route path="/Home-frelencer" component={Homefrelencer} />
             <Route path="/Creative-carousel" component={Creativecarousel} />
             <Route path="/Home-developer" component={HomeDeveloper} />
+            <Route path="/ping" component={HealthCheck} />
             <Route component={NotFound} />
           </Switch>
         </Router>
