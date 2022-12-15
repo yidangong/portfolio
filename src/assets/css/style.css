@@ -287,6 +287,46 @@ h6 {
   margin-left: 0px;
 }
 
+.navbar .navbar-nav .nav-item-bk {
+  margin-left: 35px;
+}
+
+.navbar .navbar-nav .nav-item-bk .nav-link {
+  font: 600 14px/30px "Montserrat", sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.navbar .navbar-nav .nav-item-bk .nav-link:before {
+  content: "";
+  background: #000;
+  opacity: 0.71;
+  position: absolute;
+  left: auto;
+  right: 0px;
+  bottom: 0px;
+  width: 0%;
+  height: 1.3px;
+  z-index: 1;
+  -webkit-transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.navbar .navbar-nav .nav-item-bk .nav-link.active:before,
+.navbar .navbar-nav .nav-item-bk .nav-link:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.navbar .navbar-nav.nav-right .nav-item-bk {
+  margin-left: 0px;
+}
+
 .navbar .login {
   padding: 5px 34px;
   font: 600 14px/30px "Montserrat", sans-serif;
@@ -1321,7 +1361,7 @@ h6 {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  color: #797979;
+  color: #040c2c;
   -webkit-transition: color 0.3s linear;
   -o-transition: color 0.3s linear;
   transition: color 0.3s linear;
@@ -1333,14 +1373,14 @@ h6 {
   display: inline-block;
 }
 .blog_post .post_content .read_btn:hover {
-  color: #040c2c;
+  color: #797979;
 }
 .blog_post .post_content .read_btn:hover i {
   transform: translateX(5px);
 }
 .blog_post:hover {
-  -webkit-box-shadow: 0 0 600px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 600px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.15);
 }
 
 .blog_post:hover .post_date {
@@ -2093,6 +2133,7 @@ h6 {
 }
 .fact_img {
   margin-right: -60px;
+  width: 100%;
 }
 .blog_area_two {
   padding: 120px 0px;
@@ -4937,6 +4978,91 @@ h6 {
 .d_footer_area.footer-area-two .footer-content p {
   font-family: "Poppins", sans-serif;
 }
+
+.clp-intro {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.clp2 .navbar_fixed {
+  background-color: white;
+}
+
+.teaching_philosophy {
+  padding: 120px 0px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.teaching_philosophy .fact_img {
+  width: 100%;
+}
+
+.teaching_philosophy .read_btn {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #040c2c;
+  -webkit-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+.teaching_philosophy .read_btn i {
+  vertical-align: middle;
+  padding-left: 3px;
+  transition: all 0.2s linear;
+  display: inline-block;
+}
+.teaching_philosophy .read_btn:hover {
+  color: #797979;
+}
+.teaching_philosophy .read_btn:hover i {
+  transform: translateX(5px);
+}
+
+.course_plan {
+  padding: 110px 0px 90px;
+}
+
+.course_plan img {
+  width: 100%;
+}
+
+.course_plan h2 {
+  text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  transition: color 0.3s linear;
+}
+
+.course_plan .course_item {
+  text-align: center;
+  border: 1px solid #f3f1f1;
+  background: #fff;
+  padding: 30px;
+  margin: 0px 30px;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+
+.course_plan .course_item:hover {
+  -webkit-box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+}
+
+.teaching-moments {
+  padding: 120px 0px;
+}
+
+.teaching-moments .video {
+  margin: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /*---------------------------------------------------- */

@@ -4,14 +4,14 @@ const ProjectData = [
     category: "teaching",
     img: "teaching/Teaching U.S. Immigrants/Cover/Screen Shot 2022-12-01 at 10.02.26 PM.png",
     desc: "Time: Summer 2022 \n Teaching Hours: 60 \n Level: Lower Intermediate I \n Location: Community Language Center at Teachers College, Columbia University",
-    ref: "/CLP",
+    ref: "/Projects/2022201",
   },
   {
-    title: "Teaching Adults from All Over the world English Integrated Skills (Online)",
+    title: "Teaching Adults from Worldwide English Integrated Skills (Online)",
     category: "teaching",
     img: "teaching/Online Teaching/Cover/Screen Shot 2022-12-02 at 4.45.18 PM.png",
     desc: "Time: Spring 2022 \n Teaching Hours: 60 \n Level: Intermediate II",
-    ref: "/CLP2",
+    ref: "/Projects/2022101",
   },
   {
     title: "Teaching ESL to Spanish Speakers in New York",

@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 /*-----pages-----*/
-import { CLP } from "./component/Projects/CLP/index";
 import { Home2 } from "./Home2";
 import { NotFound } from "./404";
-import { CLP2 } from "./component/Projects/CLP2";
+// import { CLP2 } from "./component/Projects/CLP2";
 import { HealthCheck } from "./HealthCheck";
 
 import { Home } from "./Home";
@@ -15,6 +14,9 @@ import { Home6 } from "./Home6";
 import { Homefrelencer } from "./Home-frelencer";
 import { Creativecarousel } from "./Creative-carousel";
 import { HomeDeveloper } from "./Home-developer";
+
+import { CLP } from "./component/Projects/CLP";
+import { CLP2 } from "./component/Projects/CLP2";
 
 class App extends Component {
   render() {
@@ -33,6 +35,10 @@ class App extends Component {
             <Route path="/Home-frelencer" component={Homefrelencer} />
             <Route path="/Creative-carousel" component={Creativecarousel} />
             <Route path="/Home-developer" component={HomeDeveloper} />
+
+            <Route path="/Projects/2022201" component={CLP2} />
+            <Route path="/Projects/2022101" component={CLP} />
+
             <Route path="/ping" component={HealthCheck} />
             <Route component={NotFound} />
           </Switch>

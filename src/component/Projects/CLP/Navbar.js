@@ -1,111 +1,107 @@
 import React, { Component } from "react";
-
+import Sticky from "react-stickynode";
+import { Link } from "react-scroll";
 class Navbar extends Component {
-  constructor() {
-    super();
-    this.state = {
-      isExpanded: false,
-    };
-  }
-
-  handleToggle() {
-    this.setState({
-      isExpanded: !this.state.isExpanded,
-    });
-  }
   render() {
-    var { mainlogo } = this.props;
+    var { mClass, mContainer, mainlogo, stickylogo } = this.props;
     return (
-      <React.Fragment>
-        <header className="header_area_one p_absoulte">
-          <div className="container-fluid">
-            <div className="row align-items-center">
-              <div className="col-sm-9 col-7">
-                <div className="menu_left">
-                  <a href="/#" className="logo">
-                    <img src={require("../../../image/" + mainlogo)} alt="" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-sm-3 col-8">
-                <div className="menu_right">
-                  <div className="burger_menu">
-                    <span className="text" data-text="menu"></span>
-                    <div
-                      id="nav-icon2"
-                      className={this.state.isExpanded ? "open" : ""}
-                      onClick={() => this.handleToggle()}
-                    >
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-
-        <div
-          className={
-            this.state.isExpanded ? "offcanvas_menu open" : "offcanvas_menu"
-          }
-        >
-          <div className="closer_icon" onClick={() => this.handleToggle()}>
-            <i className="icon_close"></i>
-          </div>
-          <div className="menu_body">
-            <div className="menu_title">
-              <h2>Spring 2022 Intermediate 2</h2>
-              <p>
-                This is a 60-hour English course I taught online with a co-teacher from January to April 2022 at the Community Language Program at <br/>Teachers College, Columbia University.
-              </p>
-            </div>
-            <div className="off_menu">
-              <ul id="menu" className="nav">
-                <li data-menuanchor="Course-Syllabus" className="">
-                  <a href="#Course-Syllabus">Course Syllabus</a>
+      <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
+        <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
+          <div className={`container ${mContainer}`}>
+            <a className="navbar-brand logo_h" href="../">
+              <img src={require("../../../image/" + mainlogo)} alt="" />
+              <img src={require("../../../image/" + stickylogo)} alt="" />
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+              <span className="icon-bar"></span>
+            </button>
+            <div
+              className="collapse navbar-collapse offset"
+              id="navbarSupportedContent"
+            >
+              <ul className="nav navbar-nav m-auto">
+                <li className="nav-item-bk">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="introduction"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Introduction
+                  </Link>
                 </li>
-                <li data-menuanchor="Need-Analysis" className="">
-                  <a href="#Need-Analysis">Need Analysis</a>
+                <li className="nav-item-bk">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="philosophy"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Philosophy
+                  </Link>
                 </li>
-                <li data-menuanchor="Teaching-Philosophy" className="">
-                  <a href="#Teaching-Philosophy">Teaching Philosophy</a>
+                <li className="nav-item-bk">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="course_needs"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Syllabus & Needs
+                  </Link>
                 </li>
-                <li data-menuanchor="Lesson-Plan" className="">
-                  <a href="#Lesson-Plan">Lesson Plan</a>
+                <li className="nav-item-bk">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="lesson_plan"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Lesson Plan
+                  </Link>
                 </li>
-                <li data-menuanchor="Teaching-Moments-1" className="">
-                  <a href="#Teaching-Moments-1">Teaching Moments 1</a>
-                </li>
-                <li data-menuanchor="Teaching-Moments-2" className="">
-                  <a href="#Teaching-Moments-2">Teaching Moments 2</a>
-                </li>
-                <li data-menuanchor="Teaching-Moments-3" className="">
-                  <a href="#Teaching-Moments-3">Teaching Moments 3</a>
-                </li>
-                <li data-menuanchor="Teaching-Moments-4" className="">
-                  <a href="#Teaching-Moments-4">Teaching Moments 4</a>
-                </li>
-                <li data-menuanchor="Teaching-Moments-5" className="">
-                  <a href="#Teaching-Moments-5">Teaching Moments 5</a>
+                <li className="nav-item-bk">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="teaching_moments"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Teaching Moments
+                  </Link>
                 </li>
               </ul>
             </div>
-            <div className="copy_right_menu">
-              <p>
-                © <a href="/#">Yidan</a> 2022. All Rights Reseverd Design by
-                YidanGong
-              </p>
-            </div>
           </div>
-        </div>
-      </React.Fragment>
+        </nav>
+      </Sticky>
     );
   }
 }
+
 export default Navbar;

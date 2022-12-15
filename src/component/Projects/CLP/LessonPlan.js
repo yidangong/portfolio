@@ -1,60 +1,35 @@
-import React, { Component } from "react";
-import SplitText from "react-pose-text";
+import React, { Component } from "react"
+import { Fade } from "react-reveal";
 
-const charPoses = {};
 class LessonPlan extends Component {
-  render() {
-    return (
-      <div className="section fp-section fp-tabble section_one">
-        <div className="slider_container">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6">
-                <div className="slider_content">
-                  <h6>
-                    <span className="br"></span>
-                    <SplitText charPoses={charPoses}>Lesson Plan</SplitText>
-                  </h6>
-                  <h2>
-                    <SplitText charPoses={charPoses}>
-                    Favorite Lesson Plans
-                    </SplitText>
-                  </h2>
-                  <p>
-                    Textbook: Interchange 3
-                  </p>
-                  <a href="./docs/CLP/lesson-plan-one.pdf" className="see_btn" target="_blank" data-text="See Document" >
-                    Lesson Plan One
-                    <span className="arrow">
-                      <span className="line"></span>
-                    </span>
-                  </a>
-                  <br/>
-                  <a href="./docs/CLP/lesson-plan-two.pdf" className="see_btn" target="_blank" data-text="See Document" >
-                    Lesson Plan Two
-                    <span className="arrow">
-                      <span className="line"></span>
-                    </span>
-                  </a>
+    render() {
+        return (
+            <section className="course_plan bg_color" id="lesson_plan">
+                <div className="container">
+                    <Fade bottom cascade duration={1000}>
+                        <div className="row">
+                            <div className="col-lg-6 col-sm-6" key="lesson-plan-one">
+                                <h2 className="t_color">Lesson Plan One</h2>
+                                <div className="course_item wow fadeInUp" data-wow-delay="0.1s">
+                                    <a href="../docs/CLP/lesson-plan-one.pdf" className="see_btn" target="_blank" data-text="See Document" >
+                                        <img src={require("../../../image/projects/clp/lesson-plan-one.png")} alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-sm-6" key="lesson-plan-two">
+                                <h2 className="t_color">Lesson Plan Two</h2>
+                                <div className="course_item wow fadeInUp" data-wow-delay="0.1s">
+                                    <a href="../docs/CLP/lesson-plan-two.pdf" className="see_btn" target="_blank" data-text="See Document" >
+                                        <img src={require("../../../image/projects/clp/lesson-plan-two.png")} alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </Fade>
                 </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="slider_image_inner">
-                  <span></span>
-                  <a href="./docs/CLP/lesson-plan.pdf" className="see_btn" target="_blank" data-text="See Document" >
-                    <img
-                      src={require("../../../image/portfolio/clp/lesson-plan-one.png")}
-                      alt=""
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+            </section>
+        )
+    }
 }
 
 export default LessonPlan;
