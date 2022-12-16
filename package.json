@@ -30,7 +30,7 @@
     "react-water-wave": "^1.0.5",
     "serve": "^13.0.2",
     "slick-carousel": "^1.8.1",
-    "video-react": "^0.15.0"
+    "video-react": "^0.16.0"
   },
   "scripts": {
     "dev": "react-scripts start",
