@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from "react";
-import { ControlBar, CurrentTimeDisplay, ForwardControl, PlaybackRateMenuButton, Player, PlayToggle, ReplayControl, TimeDivider, VolumeMenuButton } from "video-react"
+import React, { Component } from "react";
+import ReactPlayer from "react-player";
 import SectionTitleTwo from "../../Banner/SectionTitleTwo";
 
 const teachingMoments = [
@@ -52,27 +52,21 @@ class TeachingMoments extends Component {
               <span className="br">{teachingMoment.description}</span>
             </div>
             <div className="row">
-              <div className="col-lg-10">
-                <Fragment>
-                  <Player
-                    className="video"
-                    poster={teachingMoment.videoPoster}
-                  >
-                    <source
-                      src={teachingMoment.videoUrl}
-                      type="video/mp4"
-                    />
-                    <ControlBar autoHide={false} disableDefaultControls={false}>
-                      <ReplayControl seconds={10} order={1.1} />
-                      <ForwardControl seconds={30} order={1.2} />
-                      <PlayToggle />
-                      <CurrentTimeDisplay order={4.1} />
-                      <TimeDivider order={4.2} />
-                      <PlaybackRateMenuButton rates={[2, 1.75, 1.5, 1, 0.5]} order={7.1} />
-                      <VolumeMenuButton />
-                    </ControlBar>
-                  </Player>
-                </Fragment>
+              <div className="col-12">
+                <ReactPlayer
+                  controls
+                  url={teachingMoment.videoUrl}
+                  onPause
+                  width="100%"
+                  height="100%"
+                  config={{
+                    file: {
+                      attributes: {
+                        controlsList: 'nodownload'
+                      }
+                    }
+                  }}
+                />
               </div>
             </div>
           </div>

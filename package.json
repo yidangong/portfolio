@@ -18,6 +18,7 @@
     "react-magnific-popup": "^1.0.1",
     "react-parallax": "^2.2.0",
     "react-particles-js": "^2.7.0",
+    "react-player": "^2.11.0",
     "react-pose": "^4.0.10",
     "react-pose-text": "^3.1.0",
     "react-reveal": "^1.2.2",
@@ -29,8 +30,7 @@
     "react-typewriter-hook": "^1.0.1",
     "react-water-wave": "^1.0.5",
     "serve": "^13.0.2",
-    "slick-carousel": "^1.8.1",
-    "video-react": "^0.16.0"
+    "slick-carousel": "^1.8.1"
   },
   "scripts": {
     "dev": "react-scripts start",
