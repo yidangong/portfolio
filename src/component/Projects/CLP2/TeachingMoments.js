@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from "react";
-import { ControlBar, CurrentTimeDisplay, ForwardControl, PlaybackRateMenuButton, Player, PlayToggle, ReplayControl, TimeDivider, VolumeMenuButton } from "video-react"
+import React, { Component } from "react";
 import SectionTitleTwo from "../../Banner/SectionTitleTwo";
 
 const teachingMoments = [
@@ -7,43 +6,37 @@ const teachingMoments = [
     name: "Teaching Moment 1",
     title: "Corrective feedback",
     description: "Clarification request. We were working on idenfying the number of syllables of different words and finding the major stress",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp2/teaching-moment-1.mov",
-    videoPoster: "../docs/CLP2/capture/teaching-moment-1.png",
+    videoId: "T00vAWKC2DI",
   },
   {
     name: "Teaching Moment 2",
     title: "Giving instructions and modaling",
     description: "We were practicing using present perfect to ask and answer yes or no question: 'Have you ever done something?' Students were asked to write five unique things they have experienced, now they are putting them into questions and sharing with partners.",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp2/teaching-moment-2.mov",
-    videoPoster: "../docs/CLP2/capture/teaching-moment-2.png",
+    videoId: "YBbRNc9-Rck",
   },
   {
     name: "Teaching Moment 3",
     title: "Teaching pronunciation",
     description: "Voiceless dental fricative [θ]",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp2/teaching-moment-3.mp4",
-    videoPoster: "../docs/CLP2/capture/teaching-moment-3.png",
+    videoId: "V4BAjdtkEuc",
   },
   {
     name: "Teaching Moment 4",
     title: "Grammar explanation",
     description: "We were reviewing expression of quantity with uncountable nouns",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp2/teaching-moment-4.mp4",
-    videoPoster: "../docs/CLP2/capture/teaching-moment-4.png",
+    videoId: "WX5lH9qywNo",
   },
   {
     name: "Teaching Moment 5",
     title: "Metalinguistic feedback",
     description: "Students were describing a living environment, they were confused about 'desert' and 'dessert' as well as the pronunciations",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp2/teaching-moment-5.mov",
-    videoPoster: "../docs/CLP2/capture/teaching-moment-5.png",
+    videoId: "N9JLvlzG_i8",
   },
   {
     name: "Teaching Moment 6",
     title: "An interesting game",
     description: "Snack Guessing. I got five different snacks for students, we talked about each with names on the board. I put them in a bag and every student was picking one snack from the bag without showing it to others. They were trying to descirbe the taste using the adjectives on the board, and other students were guessing the name of the snack. Then they talked if they have ever eaten it or not. (pre-stage: introducing present perfect and emphasizing it's used to refer to a time period that started in the past)",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp2/teaching-moment-6.mov",
-    videoPoster: "../docs/CLP2/capture/teaching-moment-6.png",
+    videoId: "buYsLRFD5QM",
   },
 ]
 
@@ -59,28 +52,16 @@ class TeachingMoments extends Component {
             <div className="row">
               <span className="br">{teachingMoment.description}</span>
             </div>
-            <div className="row">
-              <div className="col-lg-10">
-                <Fragment>
-                  <Player
-                    className="video"
-                    poster={teachingMoment.videoPoster}
-                  >
-                    <source
-                      src={teachingMoment.videoUrl}
-                      type="video/mp4"
-                    />
-                    <ControlBar autoHide={false} disableDefaultControls={false}>
-                      <ReplayControl seconds={10} order={1.1} />
-                      <ForwardControl seconds={30} order={1.2} />
-                      <PlayToggle />
-                      <CurrentTimeDisplay order={4.1} />
-                      <TimeDivider order={4.2} />
-                      <PlaybackRateMenuButton rates={[2, 1.75, 1.5, 1, 0.5]} order={7.1} />
-                      <VolumeMenuButton />
-                    </ControlBar>
-                  </Player>
-                </Fragment>
+            <div className="row video">
+              <div className="col-lg-12 youtube">
+                <iframe
+                  id="ytplayer"
+                  type="text/html"
+                  title={teachingMoment.title}
+                  allow="fullscreen;"
+                  src={`https://www.youtube.com/embed/${teachingMoment.videoId}?autoplay=0&origin=https://www.gongyidan.com`}
+                  frameborder="0"
+                />
               </div>
             </div>
           </div>

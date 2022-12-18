@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from "react";
-import { ControlBar, CurrentTimeDisplay, ForwardControl, PlaybackRateMenuButton, Player, PlayToggle, ReplayControl, TimeDivider, VolumeMenuButton } from "video-react"
+import React, { Component } from "react";
 import SectionTitleTwo from "../../Banner/SectionTitleTwo";
 
 const teachingMoments = [
@@ -7,35 +6,30 @@ const teachingMoments = [
     name: "Teaching Moment 1",
     title: "Corrective feedback",
     description: "Clarification request and explicit feedback",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp/teaching-moment-1.mp4",
-    videoPoster: "../docs/CLP/capture/teaching-moment-1.png",
+    videoId: "Q6fWKXKK8ZA",
   },
   {
     name: "Teaching Moment 2",
     title: "Grammar Explaining",
     description: "Explaining the difference between the past simple passive and the present perfect passive",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp/teaching-moment-2.mp4",
-    videoPoster: "../docs/CLP/capture/teaching-moment-2.png",
+    videoId: "vGljBY1TBwc",
   },
   {
     name: "Teaching Moment 3",
     title: "Giving writing instructions",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp/teaching-moment-3.mp4",
-    videoPoster: "../docs/CLP/capture/teaching-moment-3.png",
+    videoId: "dRZnhYLXllM",
   },
   {
     name: "Teaching Moment 4",
     title: "Provide Feedback",
     description: "Answering a student's question in the breakout room",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp/teaching-moment-4.mp4",
-    videoPoster: "../docs/CLP/capture/teaching-moment-4.png",
+    videoId: "V042MK1Z4I4",
   },
   {
     name: "Teaching Moment 5",
     title: "Scaffolding an activity",
     description: "Scaffolding a writing activity by analyzing a letter with suggestions",
-    videoUrl: "https://yidangongportfolio.blob.core.windows.net/protfolio-video/clp/teaching-moment-5.mp4",
-    videoPoster: "../docs/CLP/capture/teaching-moment-5.png",
+    videoId: "IkSKG4YkJ4U",
   },
 ]
 
@@ -51,28 +45,16 @@ class TeachingMoments extends Component {
             <div className="row">
               <span className="br">{teachingMoment.description}</span>
             </div>
-            <div className="row">
-              <div className="col-lg-10">
-                <Fragment>
-                  <Player
-                    className="video"
-                    poster={teachingMoment.videoPoster}
-                  >
-                    <source
-                      src={teachingMoment.videoUrl}
-                      type="video/mp4"
-                    />
-                    <ControlBar autoHide={false} disableDefaultControls={false}>
-                      <ReplayControl seconds={10} order={1.1} />
-                      <ForwardControl seconds={30} order={1.2} />
-                      <PlayToggle />
-                      <CurrentTimeDisplay order={4.1} />
-                      <TimeDivider order={4.2} />
-                      <PlaybackRateMenuButton rates={[2, 1.75, 1.5, 1, 0.5]} order={7.1} />
-                      <VolumeMenuButton />
-                    </ControlBar>
-                  </Player>
-                </Fragment>
+            <div className="row video">
+              <div className="col-lg-12 youtube">
+                <iframe
+                  id="ytplayer"
+                  type="text/html"
+                  title={teachingMoment.title}
+                  allow="fullscreen;"
+                  src={`https://www.youtube.com/embed/${teachingMoment.videoId}?autoplay=0&origin=https://www.gongyidan.com`}
+                  frameborder="0"
+                />
               </div>
             </div>
           </div>
