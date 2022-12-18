@@ -25,7 +25,7 @@ const ProjectData = [
     category: "teaching",
     img: "teaching/EFL for Kindergarten Students/Cover/IMG_3513.JPG",
     desc: "Time: Fall 2020 \n Teaching Hours: 64 \n Level: Kindergarten Alphabet Learning \n Location: Chengdu Aizhi Jacaranda Kindergarten",
-    ref: "/#",
+    ref: "/Projects/2020401",
   },
 ];
 

@@ -12,11 +12,11 @@ import { Home4 } from "./Home4";
 import { Home5 } from "./Home5";
 import { Home6 } from "./Home6";
 import { Homefrelencer } from "./Home-frelencer";
-import { Creativecarousel } from "./Creative-carousel";
 import { HomeDeveloper } from "./Home-developer";
 
 import { CLP } from "./component/Projects/CLP";
 import { CLP2 } from "./component/Projects/CLP2";
+import { EFL } from "./component/Projects/EFL";
 
 class App extends Component {
   render() {
@@ -33,11 +33,11 @@ class App extends Component {
             <Route path="/Home5" component={Home5} />
             <Route path="/Home6" component={Home6} />
             <Route path="/Home-frelencer" component={Homefrelencer} />
-            <Route path="/Creative-carousel" component={Creativecarousel} />
             <Route path="/Home-developer" component={HomeDeveloper} />
 
             <Route path="/Projects/2022201" component={CLP2} />
             <Route path="/Projects/2022101" component={CLP} />
+            <Route path="/Projects/2020401" component={EFL} />
 
             <Route path="/ping" component={HealthCheck} />
             <Route component={NotFound} />

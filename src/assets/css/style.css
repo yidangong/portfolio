@@ -5078,6 +5078,14 @@ h6 {
   height: 100%;
 }
 
+.feedback {
+  padding: 110px 0px 90px;
+}
+
+.feedback img {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /*---------------------------------------------------- */
