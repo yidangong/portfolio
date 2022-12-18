@@ -35,32 +35,38 @@ const teachingMoments = [
 
 class TeachingMoments extends Component {
   render() {
-    return (teachingMoments.map((teachingMoment, i) => {
-      return (
-        <div className={`teaching-moments ${i % 2 === 1 ? "bg_color" : ""}`} id="teaching_moments">
-          <div className="container">
-            <div className="row">
-              <SectionTitleTwo stitle={teachingMoment.name} btitle={teachingMoment.title} />
-            </div>
-            <div className="row">
-              <span className="br">{teachingMoment.description}</span>
-            </div>
-            <div className="row video">
-              <div className="col-lg-12 youtube">
-                <iframe
-                  id="ytplayer"
-                  type="text/html"
-                  title={teachingMoment.title}
-                  allow="fullscreen;"
-                  src={`https://www.youtube.com/embed/${teachingMoment.videoId}?autoplay=0&origin=https://www.gongyidan.com`}
-                  frameborder="0"
-                />
+    return (
+      <section id="teaching_moments">
+        {
+          teachingMoments.map((teachingMoment, i) => {
+            return (
+              <div className={`teaching-moments ${i % 2 === 1 ? "bg_color" : ""}`}>
+                <div className="container">
+                  <div className="row">
+                    <SectionTitleTwo stitle={teachingMoment.name} btitle={teachingMoment.title} />
+                  </div>
+                  <div className="row">
+                    <span className="br">{teachingMoment.description}</span>
+                  </div>
+                  <div className="row video">
+                    <div className="col-lg-12 youtube">
+                      <iframe
+                        id="ytplayer"
+                        type="text/html"
+                        title={teachingMoment.title}
+                        allow="fullscreen;"
+                        src={`https://www.youtube.com/embed/${teachingMoment.videoId}?autoplay=0&origin=https://www.gongyidan.com`}
+                        frameborder="0"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      );
-    }))
+            );
+          })
+        }
+      </section>
+    )
   }
 }
 
