@@ -5082,7 +5082,13 @@ h6 {
   padding: 110px 0px 90px;
 }
 
-.feedback img {
+.feedback .scroll_view {
+  overflow: scroll;
+  height: 600px;
+  width: 100%;
+}
+
+.feedback .scroll_view img {
   width: 100%;
 }
 

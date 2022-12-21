@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { ScrollView } from "react-native";
 import SectionTitleTwo from "../../Banner/SectionTitleTwo";
 
 class Feedback extends Component {
@@ -11,19 +10,13 @@ class Feedback extends Component {
                     <p>Examples of daily feedback returned to parents, including students' pictures in class, overall performance, and content learned in class with each word's pronunciation. </p>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 scroll_view">
-                            <ScrollView style={{ height: 600, width: "100%" }}>
-                                <img src={require("../../../image/projects/efl/feedback-1.jpg")} alt="" />
-                            </ScrollView>
+                            <img src={require("../../../image/projects/efl/feedback-1.jpg")} alt="" />
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <ScrollView style={{ height: 600, width: "100%" }}>
-                                <img src={require("../../../image/projects/efl/feedback-2.jpg")} alt="" />
-                            </ScrollView>
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 scroll_view">
+                            <img src={require("../../../image/projects/efl/feedback-2.jpg")} alt="" />
                         </div>
-                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <ScrollView style={{ height: 600, width: "100%" }}>
-                                <img src={require("../../../image/projects/efl/feedback-3.jpg")} alt="" />
-                            </ScrollView>
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 scroll_view">
+                            <img src={require("../../../image/projects/efl/feedback-3.jpg")} alt="" />
                         </div>
                     </div>
                 </div>
