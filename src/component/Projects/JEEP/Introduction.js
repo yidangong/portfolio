@@ -47,17 +47,17 @@ class Introduction extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="skill_content_two">
-                                <SectionTitleTwo stitle="Student-Centered, Interactive, Commucative" btitle="EFL to Kindergarten Students"/>
-                                <p>This is a 64-hour EFL course held in Chengdu Aizhi Jacaranda Kindergarten. This course aimed to raise kids' interest in English learning and introduce elementary English lesson, including Phonics and basic topics like 'family' and 'animals'.</p>
+                                <SectionTitleTwo stitle="Student-Centered, Interactive, Commucative" btitle="Teaching ESL to Spanish Speakers in New York"/>
+                                <p>This is a volunteer teaching program held by Community Impact at Columbia University. We offer free English classes for adult immigrants who live in the New York City area. Our mission is to help them become a lifelong learner; be an active member of the community; continue professional training or education; compete in the workplace. </p>
                                 <div className="row">
-                                    <CounterItem col="col-md-6 s_item" CText='12' pdescription='Class Size'/>
-                                    <CounterItem col="col-md-6 s_item" CText='64' pdescription='Teaching Hours'/>
-                                    <CounterItemText col="col-md-12" CText='Kindergarten' pdescription='Student Level'/>
+                                    <CounterItem col="col-md-6 s_item" CText='13' pdescription='Class Size'/>
+                                    <CounterItem col="col-md-6 s_item" CText='30' pdescription='Teaching Hours'/>
+                                    <CounterItemText col="col-md-12" CText='Beginner' pdescription='Student Level'/>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
-                          <img className="fact_img" src={require('../../../image/projects/efl/program-logo.png')} alt=""/>
+                          <img className="fact_img" src={require('../../../image/projects/jeep/program-logo.png')} alt=""/>
                         </div>
                     </div>
                 </div>

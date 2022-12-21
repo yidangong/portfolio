@@ -17,6 +17,7 @@ import { HomeDeveloper } from "./Home-developer";
 import { CLP } from "./component/Projects/CLP";
 import { CLP2 } from "./component/Projects/CLP2";
 import { EFL } from "./component/Projects/EFL";
+import { JEEP } from "./component/Projects/JEEP";
 
 class App extends Component {
   render() {
@@ -37,6 +38,7 @@ class App extends Component {
 
             <Route path="/Projects/2022201" component={CLP2} />
             <Route path="/Projects/2022101" component={CLP} />
+            <Route path="/Projects/2021301" component={JEEP} />
             <Route path="/Projects/2020401" component={EFL} />
 
             <Route path="/ping" component={HealthCheck} />

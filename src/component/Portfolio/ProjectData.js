@@ -18,7 +18,7 @@ const ProjectData = [
     category: "teaching",
     img: "teaching/Teaching Spanish Speakers/Cover/IMG_9486.png",
     desc: "Time: Fall 2021 \n Teaching Hours: 30 \n Level:  Beginner \n Location: Community Impact at Columbia University",
-    ref: "/#",
+    ref: "/Projects/2021301",
   },
   {
     title: "Teaching EFL to Kindergarten Students in Chengdu, China",
