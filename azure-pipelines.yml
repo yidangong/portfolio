@@ -65,7 +65,3 @@ stages:
               packageForLinux: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
               RuntimeStack: 'NODE|16-lts'
               StartupCommand: 'yarn start'
-              ScriptType: 'Inline Script'
-              InlineScript: |
-                yarn install
-                yarn build
