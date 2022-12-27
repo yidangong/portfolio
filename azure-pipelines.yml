@@ -58,6 +58,7 @@ stages:
           steps:
           - task: AzureRmWebAppDeployment@4
             displayName: 'Azure App Service Deploy: yidangong-portfolio'
+            retryCountOnTaskFailure: 3
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
