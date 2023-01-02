@@ -35,7 +35,7 @@ class ParticlesBanner extends Component {
                 dataText={[
                   "Developer.",
                   "Photographer.",
-                  "Designing UI/UX.",
+                  "Designing UX/UI.",
                   "Freelancer.",
                 ]}
               />

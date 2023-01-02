@@ -13,7 +13,7 @@ class TypeBanner extends Component {
                         <div className="banner_content">
                             {/* <Reveal effect="fadeInUp"><h5 className="wow fadeInUp animated">HELLO</h5></Reveal> */}
                             <Reveal effect="fadeInUp" duration={1500}><h2 className="wow fadeInLeft animated">{yidanData.name}</h2></Reveal>
-                            <Reveal effect="fadeInUp" duration={5000}> <Typer heading={'I am an/a '} dataText={["UI/UX Designer", "ESL Teacher", "Web Developer"]} /></Reveal>
+                            <Reveal effect="fadeInUp" duration={5000}> <Typer heading={'I am a/an '} dataText={["UX/UI Designer", "ESL Teacher", "Instructional Designer", "Web Developer"]} /></Reveal>
                             <ul className="list_style social_icon">
                             {
                                 yidanData.socialLinks && yidanData.socialLinks.map(item =>{
