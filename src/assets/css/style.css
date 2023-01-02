@@ -5519,6 +5519,368 @@ h6 {
   padding: 10px 0px;
 }
 
+.dhh_title .row {
+  padding: 0px;
+}
+
+.dhh_title .item {
+  padding: 0px 0px 20px;
+  text-align: center;
+  color: #000;
+}
+.dhh_title .item h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+.dhh_title .item p {
+  font-size: 15px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #545454;
+}
+
+.dhh_intro h1 {
+  color: #000;
+  font-weight: bolder;
+}
+
+.dhh_intro .background h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.dhh_intro .background p {
+  padding-bottom: 5px;
+}
+
+.dhh_intro .background .row {
+  padding: 10px 0px;
+}
+
+.dhh_intro .background .image {
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.dhh_intro .background .image img {
+  width: 100%;
+}
+
+.dhh_intro .background .image_title p {
+  width: 100%;
+  text-align: center;
+}
+
+.dhh_intro .target_group .title {
+  font-size: 25px;
+  color: #000;
+  padding: 20px 0px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dhh_intro .target_group .subtitle {
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+.dhh_intro .target_group h5 {
+  color: #000;
+}
+
+.dhh_intro .target_group .image {
+  padding: 20px 0px;
+}
+
+.dhh_intro .target_group img {
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.dhh_intro .target_group .image figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.dhh_intro .target_group .hearing_type p {
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.dhh_intro .target_group .hearing_type figcaption {
+  text-align: center;
+  color: #000;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.dhh_intro .target_group .hearing_type .icon {
+  margin: 20px 10%;
+}
+
+.dhh_intro .situation h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+}
+
+.dhh_intro .situation p {
+  padding-bottom: 5px;
+}
+
+.dhh_intro .situation .item {
+  margin: 10px 0px;
+}
+
+.dhh_intro .situation .item .description {
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.dhh_intro .situation .item .description h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.dhh_intro .situation .item .description p {
+  padding-bottom: 5px;
+  color: #000;
+}
+
+.dhh_intro .benefits .text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dhh_intro .benefits h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+}
+
+.dhh_intro .challenge h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.dhh_intro .challenge p {
+  padding-bottom: 5px;
+}
+
+.dhh_content .title h1 {
+  padding: 60px 0px;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  font-weight: bolder;
+}
+
+.dhh_content .exploration h1 {
+  padding: 30px 0px;
+  color: #000;
+  font-weight: bolder;
+}
+
+.dhh_content .exploration .interview .questions {
+  margin: 20px 0px;
+}
+
+.dhh_content .exploration .interview h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.dhh_content .exploration .interview h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+.dhh_content .exploration .interview .item {
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #f3f1f1;
+  background: #fafafa;
+  padding: 5px;
+  margin: 15px;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  cursor: pointer;
+}
+
+.dhh_content .exploration .interview .item:hover {
+  -webkit-box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+}
+
+.dhh_content .exploration .interview .item p {
+  color: #545454;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.dhh_content .exploration .interview .item img {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.dhh_content .exploration .response h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  padding: 30px 0px;
+}
+
+.dhh_content .exploration .response .summary {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.dhh_content .exploration .response .profile {
+  width: 100%;
+  border: 1px solid #f3f1f1;
+  border-radius: 100%;
+  background-color: #acdcf2;
+}
+
+.dhh_content .exploration .response .value {
+  margin: auto;
+}
+
+.dhh_content .exploration .response .value_right {
+  margin: auto;
+  text-align: right;
+}
+
+.dhh_content .exploration .response p {
+  color: #000;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.dhh_content .exploration .response .yellow {
+  color: #7ccdf0;
+  font-size: 13px;
+}
+
+.dhh_content .exploration .response .content {
+  color: #797979;
+}
+
+.dhh_content .exploration .insight .row {
+  margin: 30px;
+}
+
+.dhh_content .exploration .insight h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.dhh_content .exploration .insight .text {
+  margin: auto;
+}
+
+.dhh_content .exploration .insight .text h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+.dhh_content .exploration .insight img {
+  width: 100%;
+}
+
+.dhh_content .exploration .theoretical {
+  margin: 20px 0px 40px;
+}
+
+.dhh_content .exploration .theoretical h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.dhh_content .exploration .theoretical h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+.dhh_content .exploration .theoretical .row {
+  padding-bottom: 40px;
+}
+
+.dhh_content .opportunity h1 {
+  padding: 40px 0px 20px;
+  color: #000;
+  font-weight: bolder;
+}
+
+.dhh_content .opportunity .title h3 {
+  font-size: 25px;
+  color: #b48100;
+  font-weight: bold;
+  padding: 30px 0px 10px;
+  text-align: center;
+}
+
+.dhh_content .opportunity .item {
+  margin: 20px 0px;
+}
+
+.dhh_content .opportunity img {
+  width: 80%;
+}
+
+.dhh_content .opportunity h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+.dhh_content .opportunity p {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.dhh_content .concept h1 {
+  padding: 40px 0px;
+  color: #000;
+  font-weight: bolder;
+}
+
+.dhh_content .delivery h1 {
+  padding: 40px 0px;
+  color: #000;
+  font-weight: bolder;
+}
+
+.visual_melody img {
+  width: 100%;
+}
+
+.visual_melody h3 {
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /*---------------------------------------------------- */

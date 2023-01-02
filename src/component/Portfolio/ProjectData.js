@@ -8,6 +8,14 @@ const ProjectData = [
     tag: "Product Design",
   },
   {
+    title: "VisualMelody",
+    category: "uxui",
+    img: "visual_melody.jpg",
+    desc: "VisualMelody is a device used as a teaching tool to support music education for hard-of-hearing students in the kindergarten classroom. It features a visual and fun way to stimulate musical exploration in hard of hearing students.",
+    ref: "/Projects/2022401",
+    tag: "UX/UI",
+  },
+  {
     title: "Our Story",
     category: "uxui",
     img: "our_story.png",
