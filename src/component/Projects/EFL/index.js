@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../../Footer";
+import yidanData from "../../yidanData";
 import Feedback from "./Feedback";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
@@ -10,5 +12,6 @@ export const EFL = () => (
         <Introduction />
         <Feedback />
         <TeachingMoments />
+        <Footer yidanData={yidanData}/>
     </div>
 );

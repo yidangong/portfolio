@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../../Footer";
+import yidanData from "../../yidanData";
 import CoursePlan from "./CoursePlan";
 import Introduction from "./Introduction";
 import LessonPlan from "./LessonPlan";
@@ -14,5 +16,6 @@ export const CLP = () => (
         <CoursePlan />
         <LessonPlan />
         <TeachingMoments />
+        <Footer yidanData={yidanData} fClass="bg_color"/>
     </div>
 );

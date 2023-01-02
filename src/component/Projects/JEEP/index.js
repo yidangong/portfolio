@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "../../Footer";
+import yidanData from "../../yidanData";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
 import TeachingMoments from "./TeachingMoments";
@@ -8,5 +10,6 @@ export const JEEP = () => (
         <Navbar mContainer="custome_container" mainlogo="logo.png" stickylogo="logo.png"/>
         <Introduction />
         <TeachingMoments />
+        <Footer yidanData={yidanData}/>
     </div>
 );

@@ -4,8 +4,9 @@ import Fade from 'react-reveal/Fade';
 class Footer extends Component{
     render(){
         let yidanData = this.props.yidanData;
+        var {fClass}= this.props;
         return(
-            <section className="footer-area">
+            <section className={`footer-area ${fClass}`}>
                 <div className="container">
                     <div className="footer-content">
                         <Link to="/" className="logo wow fadeInDown" data-wow-delay="0.4s">

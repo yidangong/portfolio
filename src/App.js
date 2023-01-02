@@ -7,6 +7,7 @@ import { NotFound } from "./404";
 import { HealthCheck } from "./HealthCheck";
 
 import { Home } from "./Home";
+import { Home1 } from "./Home1";
 import { Home3 } from "./Home3";
 import { Home4 } from "./Home4";
 import { Home5 } from "./Home5";
@@ -25,10 +26,11 @@ class App extends Component {
       <React.Fragment>
         <Router>
           <Switch>
-            <Route exact path="/" component={Home2} />
+            <Route exact path="/" component={Home} />
             <Route path="/CLP" component={CLP} />
             <Route path="/CLP2" component={CLP2} />
-            <Route path="/Home" component={Home} />
+            <Route path="/Home1" component={Home1} />
+            <Route path="/Home2" component={Home2} />
             <Route path="/Home3" component={Home3} />
             <Route path="/Home4" component={Home4} />
             <Route path="/Home5" component={Home5} />
