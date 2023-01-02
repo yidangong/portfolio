@@ -5,6 +5,7 @@ import Feedback from "./Feedback";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
 import TeachingMoments from "./TeachingMoments";
+import ScrollToTop from "react-scroll-to-top";
 
 export const EFL = () => (
     <div>
@@ -13,5 +14,6 @@ export const EFL = () => (
         <Feedback />
         <TeachingMoments />
         <Footer yidanData={yidanData}/>
+        <ScrollToTop smooth />
     </div>
 );

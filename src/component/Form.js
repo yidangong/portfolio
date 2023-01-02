@@ -58,23 +58,23 @@ class Form extends React.Component {
     // } else {
     //   alert("form is invalid");
     // }
+    emailjs.init("5ZrP0YdAP-hw6Lz2s")
     emailjs
       .sendForm(
-        "gmail",
-        "template_zo1q2mh",
-        e.target,
-        "user_vvQtVRIgqRETJC2JHOJz9"
+        "service_ruhz3h7",
+        "template_xqk9vc9",
+        e.target
       )
       .then(
         (result) => {
           console.log(result.text);
-          alert("form is valid");
+          alert("Message was sent successfully");
         },
         (error) => {
           console.log(error.text);
-          alert("form is invalid");
+          alert("Message was sent unsuccessfully, Please retry later.");
         }
-      );
+      )
   };
 
   render() {

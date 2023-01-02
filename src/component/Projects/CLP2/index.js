@@ -7,6 +7,7 @@ import LessonPlan from "./LessonPlan";
 import Navbar from "./Navbar";
 import Philosophy from "./Philosophy";
 import TeachingMoments from "./TeachingMoments";
+import ScrollToTop from "react-scroll-to-top";
 
 export const CLP2 = () => (
     <div>
@@ -17,5 +18,6 @@ export const CLP2 = () => (
         <LessonPlan />
         <TeachingMoments />
         <Footer yidanData={yidanData}/>
+        <ScrollToTop smooth />
     </div>
 );

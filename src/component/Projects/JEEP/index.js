@@ -4,6 +4,7 @@ import yidanData from "../../yidanData";
 import Introduction from "./Introduction";
 import Navbar from "./Navbar";
 import TeachingMoments from "./TeachingMoments";
+import ScrollToTop from "react-scroll-to-top";
 
 export const JEEP = () => (
     <div>
@@ -11,5 +12,6 @@ export const JEEP = () => (
         <Introduction />
         <TeachingMoments />
         <Footer yidanData={yidanData}/>
+        <ScrollToTop smooth />
     </div>
 );

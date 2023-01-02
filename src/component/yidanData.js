@@ -64,12 +64,6 @@ const yidanData = {
       title: "Contact Info",
       menuItems: [
         {
-          id: 1,
-          icon: "icon_pin_alt",
-          text: "Address: 450 W 42nd St, New York",
-          url: "https://www.google.com/maps/place/450+W+42nd+St,+New+York,+NY+10036",
-        },
-        {
           id: 3,
           icon: "icon_mail",
           text: "Email: gyidangela@gmail.com",
@@ -78,8 +72,8 @@ const yidanData = {
         {
           id: 4,
           icon: "icon_globe",
-          text: "Website: http://www.yidangong.com",
-          url: "http://www.yidangong.com",
+          text: "Website: www.gongyidan.com",
+          url: "https://www.gongyidan.com",
         },
       ],
     },

@@ -5,6 +5,7 @@ import About from './component/About';
 import Portfolio from './component/Portfolio/Portfolio';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
+import ScrollToTop from "react-scroll-to-top";
 import yidanData from './component/yidanData';
 
 
@@ -16,6 +17,7 @@ export const Home = () => (
       <Portfolio pClass="bg_color"/>
       <Contact yidanData={yidanData}/>
       <Footer yidanData={yidanData} fClass="bg_color"/>
+      <ScrollToTop smooth />
   </div>
 )
 
