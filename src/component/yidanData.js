@@ -2,7 +2,7 @@ const yidanData = {
   name: "Yidan Gong",
   // name2: "Richard Tea.",
   // name3: "Alexa Johnson",
-  role: "ESL Teacher in New York,",
+  role: "User Experience Designer",
   ptext: "Creative Designer & Developer located in London.",
   socialLinks: [
     {
@@ -13,7 +13,7 @@ const yidanData = {
   ],
   aboutme: "About Me",
   aboutdetails:
-    "I am a second year graduate student at Teachers College, Columbia University. My major is teaching english to speakers of other languages (TESOL). I have experience in teaching adults English in New York for about one year. I love teaching because I can help others improve their skills. It gives me joy and excitement meeting learners around the world.",
+    "I'm a passionate user experience designer with an interdisciplinary background in advertising and language teaching. I am interested in the domain of Edtech, promising to craft research-based user-centered experiences to promote a more inclusive learning environment and personalized learning experiences.",
   service: [
     {
       id: 1,

@@ -687,6 +687,17 @@ h6 {
 .about_content p {
   padding-bottom: 30px;
 }
+
+.about_content .description {
+  padding-bottom: 30px;
+}
+
+.about_content .description p {
+  font-size: 20px;
+  padding-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
 .about_content .theme_btn.active {
   color: #fff;
 }
