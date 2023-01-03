@@ -5256,6 +5256,7 @@ h6 {
 }
 
 .our_story .insight h5 {
+  text-align: left;
   font-size: 22px;
   font-weight: 600;
 }

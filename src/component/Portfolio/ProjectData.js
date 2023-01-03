@@ -3,7 +3,7 @@ const ProjectData = [
     title: "Our Story",
     category: "uxui",
     img: "our_story.png",
-    desc: "An English learning Application for ESL (English as a Second Language) learners to enhance integrated English skills by actively engaging in various learning tasks in an interactive and communicative way. ",
+    desc: "An English Learning Application for ESL (English as a Second Language) learners to enhance integrated English skills by actively engaging in various learning tasks in an interactive and communicative way. ",
     ref: "/Projects/2022102",
   },
   {

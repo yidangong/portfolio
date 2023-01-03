@@ -9,19 +9,19 @@ const designData = [
     },
     {
         step: "STEP 2",
-        subtitle: "iPhone: Choose; iPad: Describe",
+        subtitle: "iPhone: Describe; iPad: Choose",
         iphone: "step_2/iphone.gif",
-        iphone_t: "Choose",
+        iphone_t: "Describe",
         ipad_h: "step_2/ipad.gif",
-        ipad_t: "Describe",
+        ipad_t: "Choose",
     },
     {
         step: "STEP 3",
-        subtitle: "iPhone: Describe; iPad: Choose",
+        subtitle: "iPhone: Choose; iPad: Describe",
         iphone: "step_3/iphone.gif",
-        iphone_t: "Describe",
+        iphone_t: "Choose",
         ipad_h: "step_3/ipad.gif",
-        ipad_t: "Choose",
+        ipad_t: "Describe",
     },
     {
         step: "STEP 4",
@@ -56,6 +56,8 @@ class Design extends Component {
         return (
             <div className="container" id="design">
                 <h1>Final Design</h1>
+                <p>Parents and children work together to collect different story scenes through rounds of information gap activities which require each user to read, describe, and choose the corresponding pictures based on the other's description. Reading texts are randomly assigned story elements that are leveled and dependent on children's age and parents' English proficiency. After composing and recording a story based on the collected scenes, parents get pronunciation and grammar feedback before completing it. </p>
+                <p>Finally, a story is completed when the parent does the vocabulary review, and children can finish the task at any time after recording by listening to it while sleeping.</p>
                 {
                     designData.map((val, i) => {
                         if (val.ipad) {

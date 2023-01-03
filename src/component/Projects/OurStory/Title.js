@@ -14,7 +14,7 @@ class Title extends Component {
                                 <h2 className='t_color_w'>Our Story</h2>
                             </Reveal>
 
-                            <h4 className="wow fadeInUp anoimated">An English learning Application for ESL (English as a Second Language) learners to enhance integrated English skills by actively engaging in various learning tasks in an interactive and communicative way. </h4>
+                            <h4 className="wow fadeInUp anoimated">An English Learning Application for ESL (English as a Second Language) learners to enhance integrated English skills by actively engaging in various learning tasks in an interactive and communicative way. </h4>
                         </div>
                     </div>
                 </Parallax>
