@@ -45,9 +45,9 @@ class ItemGrid extends Component {
                                         <div className="col-lg-12 col-md-12">
                                             <div className="row blog_post">
                                                 <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 blog_img">
-                                                    <img className="img-fluid" src={require(`../../image/portfolio/${Val.img}`)} alt="" />
+                                                    <img className="img-fluid" src={require(`../../image/projects/cover/${Val.img}`)} alt="" />
                                                 </div>
-                                                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 post_content">
+                                                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 align-self-center post_content">
                                                     <h2>{Val.title}</h2>
                                                     <p className='description'>{Val.desc}</p>
                                                     <p className="read_btn"><i className="arrow_left" /> See Details</p>
@@ -61,13 +61,13 @@ class ItemGrid extends Component {
                                     <a href={Val.ref}>
                                         <div className="col-lg-12 col-md-12 image_right">
                                             <div className="row blog_post">
-                                                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 post_content">
+                                                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 align-self-center post_content">
                                                     <h2>{Val.title}</h2>
                                                     <p className='description'>{Val.desc}</p>
                                                     <p className="read_btn">See Details <i className="arrow_right" /></p>
                                                 </div>
                                                 <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 blog_img">
-                                                    <img className="img-fluid" src={require(`../../image/portfolio/${Val.img}`)} alt="" />
+                                                    <img className="img-fluid" src={require(`../../image/projects/cover/${Val.img}`)} alt="" />
                                                 </div>
                                             </div>
                                         </div>

@@ -1307,9 +1307,11 @@ h6 {
 }
 
 .blog_post .blog_img {
+  background: rgba(255, 255, 255, 0);
   position: relative;
   overflow: hidden;
   padding: 40px;
+  border-radius: 5px;
 }
 
 .blog_post .blog_img .post_date {
@@ -1333,7 +1335,7 @@ h6 {
 
 .blog_post .post_content {
   padding: 25px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -1413,7 +1415,7 @@ h6 {
 /* Image Right Layout */
 .image_right .blog_post .post_content {
   padding: 25px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -5101,6 +5103,217 @@ h6 {
 
 .feedback .scroll_view img {
   width: 100%;
+}
+
+.our_story .bg_color_os {
+  background: #cbcfc9;
+}
+
+.our_story img {
+  width: 100%;
+}
+
+.our_story h1 {
+  margin: 60px 0px;
+  padding-top: 80px;
+  font-size: 35px;
+  color: #38745f;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.our_story h2 {
+  margin: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.our_story h3 {
+  color: #38745f;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.our_story h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+.our_story .t_color {
+  color: #38745f;
+}
+
+.our_story .t_blod {
+  font-weight: bold;
+  color: #000;
+}
+
+.our_story .title .row {
+  padding: 40px 0px;
+}
+
+.our_story .title .item {
+  padding: 20px 0px;
+  text-align: center;
+  color: #000;
+}
+.our_story .title .item h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #38745f;
+}
+.our_story .title .item p {
+  font-size: 17px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #545454;
+}
+
+.our_story .background_img img {
+  margin-left: -100px;
+  width: 150%;
+}
+
+.our_story .backgound {
+  margin-bottom: 40px;
+}
+
+.our_story .background_context {
+  margin: 10px 0px;
+  padding: 40px;
+  background-color: #cbcfc9;
+}
+
+.our_story .response_content {
+  margin-top: -40px;
+}
+
+.our_story .t_center {
+  text-align: center;
+}
+
+.our_story .scroll_view {
+  margin: 0px -150px;
+  width: initial;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.our_story .scroll_view::-webkit-scrollbar { 
+	-webkit-appearance: slider-horizontal;
+}
+.our_story .scroll_view::-webkit-scrollbar:vertical { 
+	width: px;
+}
+.our_story .scroll_view::-webkit-scrollbar:horizontal{
+	height: 6px;
+}
+.our_story .scroll_view::-webkit-scrollbar-thumb { 
+	border-radius: 8px; 
+	border: 2px solid rgba(255,255,255,.4); 
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.our_story .scroll_view .gridscroll {
+  display:inline-block;
+}
+
+.our_story .scroll_view .gridscroll img {
+  width: 2500px;
+}
+
+.our_story .feature_img {
+  margin: 40px -20%;
+  width: 140%;
+}
+
+.our_story .feature_gif {
+  width: 100%;
+  margin: 60px 0px;
+}
+
+.our_story .response h2 {
+  color: #38745f;
+}
+
+.our_story .insights {
+  padding-bottom: 60px;
+}
+
+.our_story .insight {
+  margin: 80px 0px;
+  padding: 50px 90px;
+}
+
+.our_story .insight h3 {
+  text-align: left;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 20px;
+}
+
+.our_story .insight h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.our_story .insight p {
+  color: #000;
+}
+
+.our_story .insight .col-lg-6 .question {
+  border-right: 1px solid #000;
+}
+
+.our_story .insight .col-md-6 .question {
+  border-right: 1px solid #000;
+}
+
+.our_story .insight .question {
+  margin: auto;
+}
+
+.our_story .insight .answer {
+  margin: auto;
+}
+
+.our_story .insight .blod {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.our_story .final_design p {
+  padding: 60px 0px 40px;
+  font-size: 20px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.our_story .final_design h5 {
+  text-align: center;
+  padding: 20px 0px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.our_story .final_design .title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.t_center {
+  text-align: center;
+}
+
+.t_color_w {
+  color: #fff;
+}
+
+.t_color_bk {
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
