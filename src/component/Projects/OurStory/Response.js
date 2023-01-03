@@ -51,7 +51,7 @@ class Response extends Component {
                                             <img src={require(`../../../image/projects/our_story/parent.png`)} alt='' />
                                         </div>
                                     </div>
-                                    <p className="t_center"><span className="t_blod">Patents:</span> English Learners</p>
+                                    <p className="t_center"><span className="t_blod">Parents:</span> English Learners</p>
                                 </div>
                                 <div className="col-4 mx-auto">
                                     <div className="row">
@@ -69,7 +69,6 @@ class Response extends Component {
                             </div>
 
                             <h2>Features</h2>
-                            <img className="feature_img" src={require(`../../../image/projects/our_story/features.png`)} alt='' />
                             <div className="row">
                                 <div className="col-4 mx-auto">
                                     <div className="row">
@@ -85,9 +84,10 @@ class Response extends Component {
                                             <img src={require(`../../../image/projects/our_story/iphone.png`)} alt='' />
                                         </div>
                                     </div>
-                                    <p className="t_center"><span className="t_blod">Patents:</span> iPone Users</p>
+                                    <p className="t_center"><span className="t_blod">Parents:</span> iPone Users</p>
                                 </div>
                             </div>
+                            <img className="feature_img" src={require(`../../../image/projects/our_story/features.png`)} alt='' />
 
                             {
                                 featureData.map((val, i) => {

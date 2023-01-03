@@ -5286,6 +5286,10 @@ h6 {
   font-size: larger;
 }
 
+.our_story .opportunity {
+  padding: 40px 5px;
+}
+
 .our_story .final_design p {
   padding: 60px 0px 40px;
   font-size: 20px;

@@ -43,7 +43,7 @@ const opportunityData = [
         content: "A solution that attracts children and parents to engage in a game to learn and teach English",
     },
     {
-        title: "Enhance child-parent relationship ",
+        title: "Enhance Child-Parent Relationship ",
         content: "A solution that encourages team work to promote child-parent relationship",
     },
 ]
@@ -89,14 +89,17 @@ class Insights extends Component {
                     </div>
 
                     <h2 className="t_color">Opportunities</h2>
-                    {
-                        opportunityData.map((val) => (
-                            <div className="insight bg_color_os opportunity">
-                                <h5>{val.title}</h5>
-                                <p>{val.content}</p>
-                            </div>
-                        ))
-                    }
+                    <div className="row">
+                        {
+                            opportunityData.map((val) => (
+                                <div className="col-lg-4 col-md-4 col-sm-10 col-xs-12 mx-auto align-self-center opportunity">
+                                    <h5>{val.title}</h5>
+                                    <p>{val.content}</p>
+                                </div>
+                            ))
+                        }
+                    </div>
+
                 </div>
             </div>
         )
