@@ -42,32 +42,6 @@ class Response extends Component {
                         <p className="t_center"><span className="t_blod">Our Story Misson:</span> Create precious family game time for parents and children who need learning and entertaining.</p>
                         <img src={require(`../../../image/projects/our_story/background.png`)} alt='' /> */}
 
-                            <h2>User Task Flow</h2>
-                            <p><span className="t_blod">Task Definition:</span> Parents and children work together to collect different scenes of a story through rounds of information gap activity which requires each user to read, describe, and choose the corresponding picture based on the other's description.</p>
-                            <div className="row">
-                                <div className="col-4 mx-auto">
-                                    <div className="row">
-                                        <div className="col-4 mx-auto">
-                                            <img src={require(`../../../image/projects/our_story/parent.png`)} alt='' />
-                                        </div>
-                                    </div>
-                                    <p className="t_center"><span className="t_blod">Parents:</span> English Learners</p>
-                                </div>
-                                <div className="col-4 mx-auto">
-                                    <div className="row">
-                                        <div className="col-4 mx-auto">
-                                            <img src={require(`../../../image/projects/our_story/children.png`)} alt='' />
-                                        </div>
-                                    </div>
-                                    <p className="t_center"><span className="t_blod">Children:</span> English Teachers</p>
-                                </div>
-                            </div>
-                            <div className="scroll_view">
-                                <div className="gridscroll">
-                                    <img src={require(`../../../image/projects/our_story/task_flow.png`)} alt='' />
-                                </div>
-                            </div>
-
                             <h2>Features</h2>
                             <div className="row">
                                 <div className="col-4 mx-auto">
@@ -89,7 +63,19 @@ class Response extends Component {
                             </div>
                             <img className="feature_img" src={require(`../../../image/projects/our_story/features.png`)} alt='' />
 
-                            {
+                            <div className="features">
+                                {
+                                    featureData.map(val => (
+                                        <div className="row feature">
+                                            {/* <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 mx-auto feature"> */}
+                                            <h5>{val.title}</h5>
+                                            <p>{val.content}</p>
+                                        </div>
+                                    ))
+                                }
+                            </div>
+
+                            {/* {
                                 featureData.map((val, i) => {
                                     if (i % 2 === 0) {
                                         return (
@@ -117,7 +103,7 @@ class Response extends Component {
                                         )
                                     }
                                 })
-                            }
+                            } */}
 
                         </div>
                     </div>
