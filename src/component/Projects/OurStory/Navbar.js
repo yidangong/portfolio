@@ -112,6 +112,19 @@ class Navbar extends Component {
                   <Link
                     className="nav-link"
                     activeClass="active"
+                    to="difinition"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Defination
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
                     to="flow"
                     spy={true}
                     smooth={true}

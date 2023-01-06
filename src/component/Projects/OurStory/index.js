@@ -11,6 +11,7 @@ import Insights from "./Insights";
 import Ideation from "./Ideations";
 import Design from "./Design";
 import Flow from "./Flow";
+import Definition from "./Defination";
 
 export const OurStory = () => (
     <div className="our_story">
@@ -21,6 +22,7 @@ export const OurStory = () => (
         <Research />
         <Insights />
         <Ideation />
+        <Definition />
         <Flow />
         <Design />
         <Footer yidanData={yidanData} fClass="bg_color_os"/>
