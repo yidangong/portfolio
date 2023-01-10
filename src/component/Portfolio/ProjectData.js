@@ -1,5 +1,12 @@
 const ProjectData = [
   {
+    title: "Articulate AI - EduBot",
+    category: "uxui",
+    img: "edubot.png",
+    desc: "A conversational platform for non-native English speakers. 3000+ registered users the first day from 100+ countries. According to our first adopters, over 87% of users would recommend the bot to a friend or family.",
+    ref: "/Projects/2022301",
+  },
+  {
     title: "Our Story",
     category: "uxui",
     img: "our_story.png",

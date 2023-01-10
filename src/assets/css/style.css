@@ -5249,47 +5249,48 @@ h6 {
   padding-bottom: 60px;
 }
 
-.our_story .insight {
-  margin: 50px 0px;
-  padding: 30px 60px;
+.insight {
+  margin: 20px 0px;
+  padding: 10px 50px 5px;
 }
 
-.our_story .insight h3 {
+.insight h3 {
+  font-size: 20px;
   text-align: left;
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
   padding-bottom: 10px;
 }
 
-.our_story .insight h5 {
+.insight h5 {
   text-align: left;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 600;
 }
 
-.our_story .insight p {
+.insight p {
   color: #000;
 }
 
-.our_story .insight .col-lg-6 .question {
+.insight .col-lg-6 .question {
   padding-right: 10px;
   border-right: 1px solid #000;
 }
 
-.our_story .insight .col-md-6 .question {
+.insight .col-md-6 .question {
   padding-right: 10px;
   border-right: 1px solid #000;
 }
 
-.our_story .insight .question {
+.insight .question {
   margin: auto;
 }
 
-.our_story .insight .answer {
+.insight .answer {
   margin: auto;
 }
 
-.our_story .insight .blod {
+.insight .blod {
   font-weight: bolder;
   font-size: larger;
 }
@@ -5322,6 +5323,115 @@ h6 {
   width: 70%;
 }
 
+.edubot section {
+  padding: 60px 0px;
+}
+
+.edubot .title {
+  padding: 0px;
+}
+
+.edubot .title h2 {
+  font-size: 38px;
+}
+
+.edubot .bg_color_os {
+  background: #d3e1ed;
+}
+
+.edubot img {
+  width: 100%;
+}
+
+.edubot h1 {
+  padding-bottom: 20px;
+  font-size: 35px;
+  color: #1763ab;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.edubot h2 {
+  margin: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.edubot h3 {
+  color: #1763ab;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.edubot h5 {
+  color: #000;
+  font-weight: bold;
+}
+
+.edubot .t_color {
+  color: #1763ab;
+}
+
+.edubot .t_blod {
+  font-weight: bold;
+}
+
+.edubot .title .row {
+  padding: 40px 0px;
+}
+
+.edubot .title .item {
+  padding: 20px 0px;
+  text-align: center;
+  color: #000;
+}
+.edubot .title .item h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1763ab;
+}
+.edubot .title .item p {
+  font-size: 17px;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #545454;
+}
+
+.edubot .opportunity h3 {
+  margin: 30px 0px;
+}
+
+.edubot .opportunity h5 {
+  font-size: 18px;
+}
+
+.edubot .opportunity .item {
+  padding: 15px 0px;
+}
+
+.edubot .ideation h3 {
+  padding: 30px 0px 0px;
+}
+
+.edubot .mockups img {
+  padding: 30px 0px;
+}
+
+.edubot .testimonial_area {
+  padding: 40px 0px 0px;
+}
+
+.edubot .testimonial_area_three {
+  background: #fafafa !important;
+}
+
+.edubot .testimonial_area_three .slick-dots li.slick-active button {
+  background: #1763ab !important;
+}
+
 .t_center {
   text-align: center;
 }
@@ -5332,6 +5442,18 @@ h6 {
 
 .t_color_bk {
   color: #000;
+}
+
+.t_color_og {
+  color: #E98C00;
+}
+
+.padding_b {
+  padding-bottom: 30px;
+}
+
+.padding_t {
+  padding-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
