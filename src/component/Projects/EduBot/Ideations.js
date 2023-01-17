@@ -24,7 +24,7 @@ class Ideation extends Component {
         return (
             <section className="ideation bg_color" id="ideations">
                 <div className="container">
-                    <h1>Ideations</h1>
+                    <h1>Ideation</h1>
                     <h3>Sketches</h3>
                     <p>We each came up with 9 concept sketches for a total of 18 ideas.</p>
                     <div className="row">

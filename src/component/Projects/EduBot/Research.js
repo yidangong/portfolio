@@ -17,8 +17,8 @@ class Research extends Component {
                     </div>
                     <div className="row">
                         <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 align-self-center">
-                            <h5>Semi-structured Interviews</h5>
-                            <p>We conducted interviews with test takers and IELTS teachers from various countries in order to gain insight into their motivations, methods, and challenges related to learning and teaching the IELTS test.</p>
+                            <h5>Focus Group</h5>
+                            <p>We had Zoom meetings with our team members, consisting of NLP & speech engineers, front-end engineers, AI scientists, learning scientists, designers and IELTS teachers to gather valuable information and insights from each team member for our project.</p>
                         </div>
                         <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 align-self-center">
                             <img src={require(`../../../image/projects/edubot/interview.png`)} alt='' />
