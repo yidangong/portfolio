@@ -5,6 +5,7 @@ const ProjectData = [
     img: "edubot.png",
     desc: "A conversational platform for non-native English speakers. 3000+ registered users the first day from 100+ countries. According to our first adopters, over 87% of users would recommend the bot to a friend or family.",
     ref: "/Projects/2022301",
+    tag: "Product Design",
   },
   {
     title: "Our Story",
@@ -12,6 +13,7 @@ const ProjectData = [
     img: "our_story.png",
     desc: "An English Learning Application for ESL (English as a Second Language) learners to enhance integrated English skills by actively engaging in various learning tasks in an interactive and communicative way. ",
     ref: "/Projects/2022102",
+    tag: "UX/UI",
   },
   {
     title: "Teaching ESL to New U.S. Immigrants in New York",

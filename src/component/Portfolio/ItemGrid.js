@@ -33,7 +33,7 @@ class ItemGrid extends Component {
             <div>
                 <ul className="list_style portfolio_menu text-center">
                     <li className={`${this.isActive('*')}`} data-wow-delay="0.1s" onClick={() => { this.onFilterChange("*") }}>ALL</li>
-                    <li className={`${this.isActive('uxui')}`} data-wow-delay="0.3s" onClick={() => { this.onFilterChange("uxui") }}>UX/UI Design</li>
+                    <li className={`${this.isActive('uxui')}`} data-wow-delay="0.3s" onClick={() => { this.onFilterChange("uxui") }}>Interaction Design</li>
                     <li className={`${this.isActive('teaching')}`} data-wow-delay="0.3s" onClick={() => { this.onFilterChange("teaching") }}>Teaching</li>
                 </ul>
                 <div className="container-fluid">
@@ -52,6 +52,13 @@ class ItemGrid extends Component {
                                                     <p className='description'>{Val.desc}</p>
                                                     <p className="read_btn"><i className="arrow_left" /> See Details</p>
                                                 </div>
+                                                {
+                                                    Val.tag ? (
+                                                        <div className='post_cat'>
+                                                            {Val.tag}
+                                                        </div>
+                                                    ) : ("")
+                                                }
                                             </div>
                                         </div>
                                     </a>
@@ -69,6 +76,13 @@ class ItemGrid extends Component {
                                                 <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 blog_img">
                                                     <img className="img-fluid" src={require(`../../image/projects/cover/${Val.img}`)} alt="" />
                                                 </div>
+                                                {
+                                                    Val.tag ? (
+                                                        <div className='post_cat_right'>
+                                                            {Val.tag}
+                                                        </div>
+                                                    ) : ("")
+                                                }
                                             </div>
                                         </div>
                                     </a>

@@ -1333,6 +1333,42 @@ h6 {
   transition: all 0.4s linear;
 }
 
+.post_cat {
+  position: absolute;
+  padding: 10px;
+  font: 700 18px "Montserrat", sans-serif;
+  color: #fff;
+  border-radius: 3px;
+  background: #040c2cca;
+  text-align: center;
+  top: 20px;
+  right: 20px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.post_cat_right {
+  position: absolute;
+  padding: 10px;
+  font: 700 18px "Montserrat", sans-serif;
+  color: #fff;
+  border-radius: 3px;
+  background: #040c2cca;
+  text-align: center;
+  top: 20px;
+  left: 20px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
 .blog_post .post_content {
   padding: 25px;
   background: rgba(255, 255, 255, 0);
