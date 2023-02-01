@@ -20,6 +20,7 @@ import { EFL } from "./component/Projects/EFL";
 import { JEEP } from "./component/Projects/JEEP";
 import { OurStory } from "./component/Projects/OurStory";
 import { EduBot } from "./component/Projects/EduBot";
+import { Programming } from "./component/Projects/Programming";
 
 class App extends Component {
   render() {
@@ -44,6 +45,7 @@ class App extends Component {
             <Route path="/Projects/2022101" component={CLP} />
             <Route path="/Projects/2021301" component={JEEP} />
             <Route path="/Projects/2020401" component={EFL} />
+            <Route path="/Projects/2019101" component={Programming} />
 
             <Route path="/ping" component={HealthCheck} />
             <Route component={NotFound} />

@@ -16,6 +16,14 @@ const ProjectData = [
     tag: "UX/UI",
   },
   {
+    title: "Java, JavaScript, HTML, CSS ",
+    category: "uxui",
+    img: "programming.jpg",
+    desc: "Class projects focus on designing, creating, and maintaining websites and mobile platforms, with an emphasis on problem-solving through computer programming exploration.",
+    ref: "/Projects/2019101",
+    tag: "Programming",
+  },
+  {
     title: "Teaching ESL to New U.S. Immigrants in New York",
     category: "teaching",
     img: "clp2.png",

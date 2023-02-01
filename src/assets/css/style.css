@@ -5492,6 +5492,33 @@ h6 {
   padding-top: 50px;
 }
 
+.programming img {
+  width: 100%;
+}
+
+.programming .projects h1 {
+  text-align: center;
+  color: #333;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  padding: 80px 0px 40px;
+}
+
+.programming .projects h3 {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.programming .projects h5 {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /*---------------------------------------------------- */
