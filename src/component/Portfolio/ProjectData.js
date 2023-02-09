@@ -23,7 +23,7 @@ const ProjectData = [
     ref: "/Projects/2022201",
   },
   {
-    title: "Teaching Adults from Worldwide English Integrated Skills (Online)",
+    title: "Teaching Adults Worldwide on English Integrated Skills (Online)",
     category: "teaching",
     img: "clp.png",
     desc: "Time: Spring 2022 \n Teaching Hours: 60 \n Level: Intermediate II",

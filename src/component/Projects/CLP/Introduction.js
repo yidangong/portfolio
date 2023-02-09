@@ -47,7 +47,7 @@ class Introduction extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="skill_content_two">
-                                <SectionTitleTwo stitle="Student-Centered, Interactive, Commucative" btitle="Teaching Adults Worldwide English Integrated Skills (Online)"/>
+                                <SectionTitleTwo stitle="Student-Centered, Interactive, Commucative" btitle="Teaching Adults Worldwide on English Integrated Skills (Online)"/>
                                 <p>This is a 60-hour English course I taught online with a co-teacher from January to April 2022 at the Community Language Program at <br/>Teachers College, Columbia University.</p>
                                 <div className="row">
                                     <CounterItem col="col-md-6 s_item" CText='9' pdescription='Class Size'/>
