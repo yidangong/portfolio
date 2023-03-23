@@ -13,24 +13,11 @@ class Concept extends Component {
 
                     <h5>Storytelling</h5>
                     <div className="row padding_b padding_t">
-                        <div className="col-lg-8 col-md-10 col-sm-12 col-xs-12 mx-auto align-self-center">
-                            <div className="row">
-                                <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12 align-self-center">
-                                    <div className="row">
-                                        <div className="col-12 mx-auto align-self-center padding_b">
-                                            <img src={require(`../../../image/projects/visual_melody/storytelling-1.png`)} alt='' />
-                                        </div>
-                                        <div className="col-12 mx-auto align-self-center">
-                                            <img src={require(`../../../image/projects/visual_melody/storytelling-2.png`)} alt='' />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 align-self-center">
-                                    <div className="col-12 mx-auto align-self-center">
-                                        <img src={require(`../../../image/projects/visual_melody/storytelling-3.png`)} alt='' />
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 mx-auto align-self-center">
+                            <img src={require(`../../../image/projects/visual_melody/storytelling-1.png`)} alt='' />
+                        </div>
+                        <div className="col-lg-5 col-md-6 col-sm-12 col-xs-12 mx-auto align-self-center">
+                            <img src={require(`../../../image/projects/visual_melody/storytelling-2.png`)} alt='' />
                         </div>
                     </div>
                     <h5 className="padding_b t_center">Develop storytelling content that is more likely to immerse children in the content.</h5>

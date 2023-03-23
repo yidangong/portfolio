@@ -75,9 +75,49 @@ class Delivery extends Component {
                             </a>
                         </div>
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
+
+                    <h3>Story board</h3>
+                    <div className="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1">
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/01.png`)} alt='' />
+                            <p className="t_center">01 Teacher teaches targeted notes</p>
+                        </div>
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/02.png`)} alt='' />
+                            <p className="t_center">02 Choose a character</p>
+                        </div>
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/03.png`)} alt='' />
+                            <p className="t_center">03 Choose a play mode</p>
+                        </div>
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/04.png`)} alt='' />
+                            <p className="t_center">04 Teacher leads students to find the pattern and rules of the game</p>
+                        </div>
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/05.png`)} alt='' />
+                            <p className="t_center">05 Student take turns to explore the game</p>
+                        </div>
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/06.png`)} alt='' />
+                            <p className="t_center">06 Start to practice</p>
+                        </div>
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/07.png`)} alt='' />
+                            <p className="t_center">07 Give feedback and hints when stepped on the wrong key</p>
+                        </div>
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/08.png`)} alt='' />
+                            <p className="t_center">08 Encourage students to try again </p>
+                        </div>
+                        <div className="col mx-auto">
+                            <img src={require(`../../../image/projects/visual_melody/09.png`)} alt='' />
+                            <p className="t_center">09 Give feedback</p>
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
                 </div>
             </div>
         )
