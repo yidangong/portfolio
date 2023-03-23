@@ -108,6 +108,19 @@ class Navbar extends Component {
                     Delivery
                   </Link>
                 </li>
+                <li className="nav-item-bk">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="reflection"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Reflection
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

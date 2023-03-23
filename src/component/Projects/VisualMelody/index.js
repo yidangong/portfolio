@@ -6,6 +6,7 @@ import Introduction from "./Introduction";
 import Navbar from "./Navbar";
 import Title from "./Title";
 import ScrollToTop from "react-scroll-to-top";
+import Reflection from "./Reflection";
 
 export const VisualMelody = () => (
     <div className="visual_melody">
@@ -13,7 +14,8 @@ export const VisualMelody = () => (
         <Title />
         <Introduction />
         <Content />
-        <Footer yidanData={yidanData}/>
+        <Reflection />
+        <Footer yidanData={yidanData} fClass="bg_color"/>
         <ScrollToTop smooth />
     </div>
 );

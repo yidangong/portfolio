@@ -12,6 +12,7 @@ import Ideation from "./Ideations";
 import Design from "./Design";
 import Flow from "./Flow";
 import Definition from "./Defination";
+import Reflection from "./Reflection";
 
 export const OurStory = () => (
     <div className="our_story">
@@ -25,6 +26,7 @@ export const OurStory = () => (
         <Definition />
         <Flow />
         <Design />
+        <Reflection />
         <Footer yidanData={yidanData} fClass="bg_color_os"/>
         <ScrollToTop smooth />
     </div>

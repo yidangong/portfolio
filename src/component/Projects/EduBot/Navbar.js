@@ -125,19 +125,6 @@ class Navbar extends Component {
                   <Link
                     className="nav-link"
                     activeClass="active"
-                    to="future"
-                    spy={true}
-                    smooth={true}
-                    offset={-86}
-                    duration={500}
-                  >
-                    Future
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    className="nav-link"
-                    activeClass="active"
                     to="mockups"
                     spy={true}
                     smooth={true}
@@ -145,6 +132,19 @@ class Navbar extends Component {
                     duration={500}
                   >
                     Mockups
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    activeClass="active"
+                    to="reflection"
+                    spy={true}
+                    smooth={true}
+                    offset={-86}
+                    duration={500}
+                  >
+                    Reflection
                   </Link>
                 </li>
               </ul>

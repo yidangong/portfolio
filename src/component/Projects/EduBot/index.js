@@ -10,8 +10,8 @@ import Ideation from "./Ideations";
 import Design from "./Design";
 import Introduction from "./Introduction";
 import Impact from "./Impact";
-import Future from "./Future";
 import Mockups from "./Mockups";
+import Reflection from "./Reflection";
 
 export const EduBot = () => (
     <div className="edubot">
@@ -23,8 +23,8 @@ export const EduBot = () => (
         <Ideation />
         <Design />
         <Impact />
-        <Future />
         <Mockups />
+        <Reflection />
         <Footer yidanData={yidanData} fClass="bg_color_os"/>
         <ScrollToTop smooth />
     </div>
