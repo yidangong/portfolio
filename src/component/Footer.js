@@ -26,7 +26,7 @@ class Footer extends Component{
                             </ul>
                         </Fade>
                         
-                        <h6>Made with love by <a href="http://www.yidangong.com" target="_blank" rel="noopener noreferrer">Yidan Gong</a></h6>
+                        <h6>Made with love by <a href="http://www.gongyidan.com" target="_blank" rel="noopener noreferrer">Yidan Gong</a></h6>
                         <p>© 2022 YidanGong - All Rights Reserved</p>
                     </div>
                 </div>
