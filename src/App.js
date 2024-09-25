@@ -47,7 +47,7 @@ class App extends Component {
             <Route path="/Projects/2021301" component={JEEP} />
             <Route path="/Projects/2020401" component={EFL} />
             <Route path="/Projects/2019101" component={Programming} />
-            {/* <Route path="/Projects/2022401" component={VisualMelody} /> */}
+            <Route path="/Projects/2022401" component={VisualMelody} />
 
             <Route path="/ping" component={HealthCheck} />
             <Route component={NotFound} />
