@@ -63,7 +63,7 @@ class Delivery extends Component {
                     <h3>arduino</h3>
                     <p>I used a microcontroller to simulate how children interact with the device while using it. The gravity sensor detects the position of the scale that the child is walking on, the SD card stores the sound information corresponding to the scale in advance, and the height of the scale is displayed on the screen while the sound is sent through the small speaker. When the child is learning music, the engagement process is completed with sound visualization.</p>
                     <div className="row padding_b">
-                        <div className="coßl-lg-10 col-md-12 col-sm-12 col-xs-12 mx-auto align-self-center">
+                        <div className="col-lg-10 col-md-12 col-sm-12 col-xs-12 mx-auto align-self-center">
                             <img src={require(`../../../image/projects/visual_melody/arduino.png`)} alt='' />
                         </div>
                     </div>
