@@ -33,8 +33,9 @@ class Title extends Component {
                             <p>Research and Analysis<br/>Visual Design</p>
                         </div>
                         <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12 item'>
-                            <h3>Individual/Team</h3>
+                            <h3>Team Members</h3>
                             <p>Yidan Gong (me)</p>
+                            <p>Ruochen Fu</p>
                         </div>
                     </div>
                 </div>
