@@ -70,7 +70,7 @@ stages:
               appType: webAppLinux
               WebAppName: $(webAppName)
               packageForLinux: '$(Pipeline.Workspace)/drop/$(Build.BuildId).zip'
-              RuntimeStack: 'NODE|16-lts'
+              RuntimeStack: 'NODE|24-lts'
               StartupCommand: 'yarn start'
           - task: AzureAppServiceManage@0
             displayName: 'Start App Service after deploy'
