@@ -27,13 +27,13 @@ class Concept extends Component {
                         <div className="col-lg-8 col-md-10 col-sm-12 col-xs-12 mx-auto align-self-center">
                             <div className="row">
                                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto align-self-center">
-                                    <img src={require(`../../../image/projects/visual_melody/interactive-1.gif`)} alt='' />
+                                    <video src={require(`../../../image/projects/visual_melody/interactive-1.mp4`)} autoPlay loop muted playsInline />
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto align-self-center">
-                                    <img src={require(`../../../image/projects/visual_melody/interactive-2.gif`)} alt='' />
+                                    <video src={require(`../../../image/projects/visual_melody/interactive-2.mp4`)} autoPlay loop muted playsInline />
                                 </div>
                                 <div className="col-12 mx-auto align-self-center padding_t">
-                                    <img src={require(`../../../image/projects/visual_melody/interactive-3.gif`)} alt='' />
+                                    <video src={require(`../../../image/projects/visual_melody/interactive-3.mp4`)} autoPlay loop muted playsInline />
                                 </div>
                             </div>
                         </div>
@@ -44,10 +44,10 @@ class Concept extends Component {
                         <div className="col-lg-8 col-md-10 col-sm-12 col-xs-12 mx-auto align-self-center">
                             <div className="row">
                                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto align-self-center">
-                                    <img src={require(`../../../image/projects/visual_melody/visualisation-1.gif`)} alt='' />
+                                    <video src={require(`../../../image/projects/visual_melody/visualisation-1.mp4`)} autoPlay loop muted playsInline />
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto align-self-center">
-                                    <img src={require(`../../../image/projects/visual_melody/visualisation-2.gif`)} alt='' />
+                                    <video src={require(`../../../image/projects/visual_melody/visualisation-2.mp4`)} autoPlay loop muted playsInline />
                                 </div>
                             </div>
                         </div>

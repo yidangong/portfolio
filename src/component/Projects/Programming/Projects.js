@@ -6,7 +6,7 @@ const data = [
         id: "java",
         title: "Java",
         text: "In this exercise, I recreated the graphical version of the classic race between the tortoise and the hare for a two-lap race. I utilized random number generation to simulate this well-known event. To enhance the user experience, I added two buttons, \"Start\" and \"Stop,\" which could be clicked using the mouse. This gave the user the ability to easily control the race with a simple press of a button.",
-        img: "race.gif",
+        img: "race.mp4",
         link: "TortoiseHareRace/index.html",
     },
     {
@@ -40,7 +40,7 @@ class Projects extends Component {
                                 </div>
                                 <div className="col-lg-5 col-md-6 col-sm-10 col-xs-12 mx-auto align-self-center">
                                     {/* <a href={`../docs/Programming/${project.link}`} className="see_btn" target="_blank" data-text="See Document" > */}
-                                    <img src={require(`../../../image/projects/programming/${project.img}`)} alt='' />
+                                    {project.img.endsWith('.mp4') ? <video src={require(`../../../image/projects/programming/${project.img}`)} autoPlay loop muted playsInline /> : <img src={require(`../../../image/projects/programming/${project.img}`)} alt='' />}
                                     {/* </a> */}
                                     {/* <h5>Click the image to see details</h5> */}
                                 </div>

@@ -4,27 +4,27 @@ const featureData = [
     {
         title: "Practice Integrated English Skills: ",
         content: "Parents and children will take turns reading a paragraph and describing it in their own words to help each other choose the corresponding pictures. After creating the story based on the images they collected, parents are responsible for recording the story and editing the texts.",
-        gif: "integrated_skills.gif",
+        gif: "integrated_skills.mp4",
     },
     {
         title: "Diversified Reading Materials: ",
         content: "Each time starting to create a story, our system randomly assigns reading passages and their according pictures based on children's age and parents' language proficiencies. ",
-        gif: "diversified_reading.gif",
+        gif: "diversified_reading.mp4",
     },
     {
         title: "Dictionary and Notes: ",
         content: "In the process of reading, parents can press and hold any word to see its meaning and add it to the dictionary. ",
-        gif: "dictionary.gif",
+        gif: "dictionary.mp4",
     },
     {
         title: "Immediate Grammar and Structure Feedback: ",
         content: "Before completing a story, parents recevie grammar structure feedback soon after recording it. By automatically generating texts, it requires parents to see grammar explanations and correct the errors by editing them.",
-        gif: "feedback.gif",
+        gif: "feedback.mp4",
     },
     {
         title: "Customized Language Input: ",
         content: "Users can publish their completed stories in the community and choose others' stories to listen to and study based on their language proficiencies and interests. They are also free to like, comment, and collect published stories. ",
-        gif: "languag_input.gif",
+        gif: "languag_input.mp4",
     },
 ]
 
@@ -81,7 +81,7 @@ class Response extends Component {
                                         return (
                                             <div className="row feature_gif">
                                                 <div className="col-lg-4 col-md-4 col-sm-8 col-xs-10 mx-auto">
-                                                    <img src={require(`../../../image/projects/our_story/${val.gif}`)} alt='' />
+                                                    <video src={require(`../../../image/projects/our_story/${val.gif}`)} autoPlay loop muted playsInline />
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mx-auto align-self-center">
                                                     <h5>{val.title}</h5>
@@ -97,7 +97,7 @@ class Response extends Component {
                                                     <p>{val.content}</p>
                                                 </div>
                                                 <div className="col-lg-4 col-md-4 col-sm-8 col-xs-10 mx-auto">
-                                                    <img src={require(`../../../image/projects/our_story/${val.gif}`)} alt='' />
+                                                    <video src={require(`../../../image/projects/our_story/${val.gif}`)} autoPlay loop muted playsInline />
                                                 </div>
                                             </div>
                                         )

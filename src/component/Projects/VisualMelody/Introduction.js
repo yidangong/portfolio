@@ -104,7 +104,7 @@ class Introduction extends Component {
               </div>
               <div className='row item'>
                 <div className='col-lg-5 col-md-6 col-sm-12 col-xs-12 mx-auto'>
-                  <img src={require('../../../image/projects/visual_melody/induction_loop_system.gif')} alt='' />
+                  <video src={require('../../../image/projects/visual_melody/induction_loop_system.mp4')} autoPlay loop muted playsInline />
                 </div>
                 <div className='col-lg-5 col-md-6 col-sm-12 col-xs-12 mx-auto description'>
                   <h3>Induction Loop system</h3>

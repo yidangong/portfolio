@@ -5145,7 +5145,8 @@ h6 {
   background: #cbcfc9;
 }
 
-.our_story img {
+.our_story img,
+.our_story video {
   width: 100%;
 }
 
@@ -5354,7 +5355,8 @@ h6 {
   font-weight: bold;
 }
 
-.our_story .final_design img {
+.our_story .final_design img,
+.our_story .final_design video {
   margin: 0px 15%;
   width: 70%;
 }
@@ -5375,7 +5377,8 @@ h6 {
   background: #d3e1ed;
 }
 
-.edubot img {
+.edubot img,
+.edubot video {
   width: 100%;
 }
 
@@ -5492,7 +5495,8 @@ h6 {
   padding-top: 50px;
 }
 
-.programming img {
+.programming img,
+.programming video {
   width: 100%;
 }
 
@@ -5870,7 +5874,8 @@ h6 {
   font-weight: bolder;
 }
 
-.visual_melody img {
+.visual_melody img,
+.visual_melody video {
   width: 100%;
 }
 
