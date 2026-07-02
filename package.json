@@ -19,7 +19,8 @@
     "react-slick": "^0.25.2",
     "react-stickynode": "^2.1.1",
     "serve": "^14.2.4",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "prop-types": "^15.8.1"
   },
   "scripts": {
     "dev": "react-scripts start",
