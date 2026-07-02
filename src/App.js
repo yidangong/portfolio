@@ -40,7 +40,7 @@ class App extends Component {
             <Route path="/Home-frelencer" component={Homefrelencer} />
             <Route path="/Home-developer" component={HomeDeveloper} /> */}
 
-            <Route path="/Projects/2022301" component={EduBot} />
+            {/* <Route path="/Projects/2022301" component={EduBot} /> */}
             <Route path="/Projects/2022102" component={OurStory} />
             <Route path="/Projects/2022201" component={CLP2} />
             <Route path="/Projects/2022101" component={CLP} />

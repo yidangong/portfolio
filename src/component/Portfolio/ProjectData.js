@@ -1,4 +1,5 @@
 const ProjectData = [
+  /* Disabled project 2022301 (Articulate AI - EduBot)
   {
     title: "Articulate AI - EduBot",
     category: "uxui",
@@ -7,6 +8,7 @@ const ProjectData = [
     ref: "/Projects/2022301",
     tag: "Product Design",
   },
+  */
   {
     title: "VisualMelody",
     category: "uxui",
