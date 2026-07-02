@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Parallax} from 'react-parallax';
-import Reveal from 'react-reveal/Reveal/';
+import Reveal from 'react-reveal/Reveal';
 import Typer from './Typer';
 
 class TypeBanner extends Component {

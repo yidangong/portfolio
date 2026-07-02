@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Parallax } from 'react-parallax/';
-import { Reveal } from 'react-reveal/';
+import { Parallax } from 'react-parallax';
+import { Reveal } from 'react-reveal';
 const image = require('../../../image/projects/programming/programming.jpg');
 
 class Title extends Component {
