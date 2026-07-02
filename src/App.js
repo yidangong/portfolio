@@ -5,14 +5,6 @@ import { NotFound } from "./404";
 import { HealthCheck } from "./HealthCheck";
 
 import { Home } from "./Home";
-// import { Home1 } from "./Home1";
-// import { Home2 } from "./Home2";
-// import { Home3 } from "./Home3";
-// import { Home4 } from "./Home4";
-// import { Home5 } from "./Home5";
-// import { Home6 } from "./Home6";
-// import { Homefrelencer } from "./Home-frelencer";
-// import { HomeDeveloper } from "./Home-developer";
 
 import { CLP } from "./component/Projects/CLP";
 import { CLP2 } from "./component/Projects/CLP2";
@@ -30,15 +22,6 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-
-            {/* <Route path="/Home1" component={Home1} />
-            <Route path="/Home2" component={Home2} />
-            <Route path="/Home3" component={Home3} />
-            <Route path="/Home4" component={Home4} />
-            <Route path="/Home5" component={Home5} />
-            <Route path="/Home6" component={Home6} />
-            <Route path="/Home-frelencer" component={Homefrelencer} />
-            <Route path="/Home-developer" component={HomeDeveloper} /> */}
 
             {/* <Route path="/Projects/2022301" component={EduBot} /> */}
             <Route path="/Projects/2022102" component={OurStory} />
