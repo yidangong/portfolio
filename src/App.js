@@ -19,7 +19,7 @@ import { CLP2 } from "./component/Projects/CLP2";
 import { EFL } from "./component/Projects/EFL";
 import { JEEP } from "./component/Projects/JEEP";
 import { OurStory } from "./component/Projects/OurStory";
-import { EduBot } from "./component/Projects/EduBot";
+// import { EduBot } from "./component/Projects/EduBot";
 import { Programming } from "./component/Projects/Programming";
 import { VisualMelody } from "./component/Projects/VisualMelody";
 
