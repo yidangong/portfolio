@@ -23,7 +23,7 @@
     "prop-types": "^15.8.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "craco start",
     "start": "serve -s build",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -50,6 +50,10 @@
     "postcss": "^8.4.31",
     "serialize-javascript": "^7.0.3",
     "underscore": "^1.13.8",
-    "@tootallnate/once": "^2.0.0"
+    "@tootallnate/once": "^2.0.0",
+    "webpack-dev-server": "^5.2.6"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0"
   }
 }
